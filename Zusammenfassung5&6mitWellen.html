@@ -1,0 +1,315 @@
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Zusammenfassung 5 & 6</title>
+  </head>
+  <style>
+    :root {
+      --text: rgb(230, 233, 243);
+      --background: rgb(11, 14, 23);
+      --primary: rgb(144, 158, 208);
+      --secondary: rgb(47, 61, 111);
+      --accent: rgb(149, 118, 146);
+    }
+
+    * {
+      font-family: Cambria;
+      color: var(--text);
+    }
+    body,
+    html {
+      padding: 0;
+      margin: 0;
+    }
+
+    body {
+      background-color: var(--background);
+    }
+    a {
+      color: white;
+    }
+    h1 {
+      color: var(--accent);
+      font-weight: bold;
+    }
+    h3 {
+      margin-top: 0px;
+    }
+    img {
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .content {
+      padding: 5rem;
+    }
+    .wrapper {
+      display: flex;
+      /* flex-direction: row; */
+      flex-wrap: wrap;
+      gap: 30px;
+      margin: 16px;
+      justify-content: space-evenly;
+    }
+    .wrapper .card {
+      max-width: 400px;
+      min-width: 140px;
+      display: flex;
+      flex-direction: column;
+      padding: 1rem;
+      border-radius: 0.5rem;
+      background-color: var(--primary);
+    }
+    .wrapper .half {
+      max-width: 400px;
+    }
+    .menu {
+      overflow: hidden;
+      background-color: var(--primary);
+      position: fixed;
+      top: 0;
+      width: 100%;
+    }
+    .menu a {
+      float: left;
+      padding: 14px 16px;
+      padding: auto;
+    }
+  </style>
+  <body>
+    <div class="menu">
+      <a href="#Funktionsweise">Funktionsweise</a>
+      <a href="#Standards">Standards</a>
+      <a href="#Internet_of_Things">Internet of Things</a>
+      <a href="#Gedankenexperiment">Gedankenexperiment</a>
+      <a href="#Aktuelle_Themen">Aktuelle Themen</a>
+    </div>
+    <h1 style="padding-top: 6rem; padding-left: 4rem">Informatik-Fit</h1>
+    <h3 style="padding-left: 5rem">706.161 Informatik-Fit, VO</h3>
+    <h3 style="padding-left: 5rem">706.160 Informatik-Fit, UE</h3>
+    <div class="wrapper">
+      <div class="card">
+        <img
+          src="https://imoox.at/mooc/pluginfile.php/506127/course/overviewfiles/imoox-moox-InfoFit24-kursbild.png"
+          alt="informatik-fit logo"
+          width="80%"
+        />
+        <h3 style="margin-top: 0px">Fragen und Übungen zu den Lektionen</h3>
+        <ul style="margin-top: 0px">
+          <li>Internet</li>
+          <li>Digitale Ethik</li>
+        </ul>
+      </div>
+      <div class="card">
+        <div style="text-align: center">
+          <h3>Das Online-Tutorium wird aufgezeichnet.</h3>
+          <h3>
+            Die Aufzeichnung wird hier zur Verfügung gestellt:
+            <br />
+            <a href="https://tube.tugraz.at/">https://tube.tugraz.at/</a>
+          </h3>
+          <h3>Folgen Sie dem Link im TeachCenter-Kurs.</h3>
+        </div>
+        <img
+          src="https://cdn.pixabay.com/photo/2021/03/10/13/38/projector-6084568_960_720.png"
+          alt="film set"
+          width="40%"
+        />
+      </div>
+    </div>
+    <div style="width: 100%; background-color: var(--background)">
+      <svg
+        id="visual"
+        viewBox="0 0 3600 370"
+        xmlns="http://www.w3.org/2000/svg"
+        xmlns:xlink="http://www.w3.org/1999/xlink"
+        version="1.1"
+      >
+        <path
+          fill="var(--secondary)"
+          d="M 0 120 L 120 101.2 C 240 82.8 480 45.2 720 54.8 C 960 64 1200 120 1440 169.2 C 1680 218.8 1920 261.2 2160 296.8 C 2400 332 2640 360 2880 313.2 C 3120 266.8 3360 145.2 3480 84.8 L 3600 24 V 380 H 0 Z"
+          stroke-linecap="round"
+          stroke-linejoin="miter"
+        ></path>
+      </svg>
+    </div>
+    <div class="content" style="background-color: var(--secondary)">
+      <h3 id="Funktionsweise">Funktionsweise</h3>
+      <ul>
+        <li>Wie werden Daten durch das Internet transportiert?</li>
+        <li>Welche Rolle übernehmen dabei Router und Glasfaserkabel?</li>
+        <li>
+          Was ist der Unterschied zwischen WLAN, Ethernet und mobilen Daten?
+        </li>
+      </ul>
+
+      <iframe
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/lXrNvj4cPAg?si=Npq3SEF8gyh5pbm1"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin"
+        allowfullscreen
+      ></iframe>
+    </div>
+    <div style="width: 100%; background-color: var(--secondary)">
+      <svg
+        id="visual"
+        viewBox="0 0 3600 370"
+        xmlns="http://www.w3.org/2000/svg"
+        xmlns:xlink="http://www.w3.org/1999/xlink"
+        version="1.1"
+      >
+        <path
+          fill="var(--background)"
+          d="M 0 120 L 120 101.2 C 240 82.8 480 45.2 720 54.8 C 960 64 1200 120 1440 169.2 C 1680 218.8 1920 261.2 2160 296.8 C 2400 332 2640 360 2880 313.2 C 3120 266.8 3360 145.2 3480 84.8 L 3600 24 V 380 H 0 Z"
+          stroke-linecap="round"
+          stroke-linejoin="miter"
+        ></path>
+      </svg>
+    </div>
+    <div class="content">
+      <h3 id="Standards">Standards</h3>
+      <ul>
+        <li>RFC 791: INTERNET PROTOCOL</li>
+        <li>RFC 1035: Domain Names - Implementation and Specification</li>
+        <li>IANA Root Zone Database</li>
+        <li>Extensible Markup Language (XML) 1.0 (Fifth Edition)</li>
+        <li>HTML (HyperText Markup Language) - Living Standard</li>
+      </ul>
+      <iframe
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/_wy3B8h0KOA?si=cQaNMvFc1wnOGdqg"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin"
+        allowfullscreen
+      ></iframe>
+    </div>
+    <div style="width: 100%; background-color: var(--background)">
+      <svg
+        id="visual"
+        viewBox="0 0 3600 370"
+        xmlns="http://www.w3.org/2000/svg"
+        xmlns:xlink="http://www.w3.org/1999/xlink"
+        version="1.1"
+      >
+        <path
+          fill="var(--secondary)"
+          d="M 0 120 L 120 101.2 C 240 82.8 480 45.2 720 54.8 C 960 64 1200 120 1440 169.2 C 1680 218.8 1920 261.2 2160 296.8 C 2400 332 2640 360 2880 313.2 C 3120 266.8 3360 145.2 3480 84.8 L 3600 24 V 380 H 0 Z"
+          stroke-linecap="round"
+          stroke-linejoin="miter"
+        ></path>
+      </svg>
+    </div>
+
+    <div class="content" style="background-color: var(--secondary)">
+      <h3 id="Internet_of_Things">Internet of Things</h3>
+      <p>
+        Immer mehr Geräte werden mit dem Internet verbunden und mit dem Buzzwort
+        "<b>Smart</b>" versehen. <br />
+        Der Richtung scheint klar: Einzelne Geräte sollen miteinander
+        kommunizieren, damit "intelligentere", also smarte Funktionen angeboten
+        werden können.
+      </p>
+      <p>
+        Dieser Trend nennt sich Internet of Things (IoT). Wikipedia liefert die
+        folgende Definition:
+      </p>
+      <p style="font-style: italic">
+        Das <b>Internet der Dinge (IdD)</b> ist ein <b>Sammelbegriff</b> für
+        Technologien einer globalen <b>Infrastruktur</b> der
+        <b>Informationsgesellschaften</b>, die es ermöglicht, physische und
+        virtuelle Objekte miteinander zu vernetzen und sie durch
+        <b>Informations- und Kommunikationstechniken</b> zusammenarbeiten zu
+        lassen.
+      </p>
+    </div>
+    <div style="width: 100%; background-color: var(--secondary)">
+      <svg
+        id="visual"
+        viewBox="0 0 3600 370"
+        xmlns="http://www.w3.org/2000/svg"
+        xmlns:xlink="http://www.w3.org/1999/xlink"
+        version="1.1"
+      >
+        <path
+          fill="var(--background)"
+          d="M 0 120 L 120 101.2 C 240 82.8 480 45.2 720 54.8 C 960 64 1200 120 1440 169.2 C 1680 218.8 1920 261.2 2160 296.8 C 2400 332 2640 360 2880 313.2 C 3120 266.8 3360 145.2 3480 84.8 L 3600 24 V 380 H 0 Z"
+          stroke-linecap="round"
+          stroke-linejoin="miter"
+        ></path>
+      </svg>
+    </div>
+
+    <div class="content">
+      <h3 id="Gedankenexperiment">Gedankenexperiment</h3>
+      <div class="wrapper">
+        <ol class="half">
+          <li>
+            Ein autonomes Fahrzeug fährt eine Straße entlang, über die, weiter
+            vorne, ein Gehsteig führt.
+          </li>
+          <li>
+            Ein älteres Paar überquert den Gehsteig und hat bald die andere Spur
+            der Straße erreicht.
+          </li>
+          <li>Plötzlich springt ein Kind auf den Gehsteig.</li>
+          <li>Der Bremsweg ist zu lange und eine Kollision unausweichlich.</li>
+          <li>
+            Die einzige Option, dem Kind auszuweichen, ist der Wechsel auf die
+            andere Spur.
+          </li>
+        </ol>
+        <div class="half">
+          <img width="100%" src="images/Trolley-Problem.png" alt="Trolley Problem" />
+        </div>
+      </div>
+    </div>
+    <div style="width: 100%; background-color: var(--background)">
+      <svg
+        id="visual"
+        viewBox="0 0 3600 370"
+        xmlns="http://www.w3.org/2000/svg"
+        xmlns:xlink="http://www.w3.org/1999/xlink"
+        version="1.1"
+      >
+        <path
+          fill="var(--secondary)"
+          d="M 0 120 L 120 101.2 C 240 82.8 480 45.2 720 54.8 C 960 64 1200 120 1440 169.2 C 1680 218.8 1920 261.2 2160 296.8 C 2400 332 2640 360 2880 313.2 C 3120 266.8 3360 145.2 3480 84.8 L 3600 24 V 380 H 0 Z"
+          stroke-linecap="round"
+          stroke-linejoin="miter"
+        ></path>
+      </svg>
+    </div>
+
+    <div class="content" style="background-color: var(--secondary)">
+      <h3 id="Aktuelle_Themen">Aktuelle Themen</h3>
+      <ul>
+        <li>
+          <a href="https://imoox.at/course/gadiws24"
+            >MOOC "Gesellschaftliche Aspekte der Informationstechnologie"
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://www.tugraz.at/arbeitsgruppen/sts/lehre/allgemeine-information"
+            >STS - Science, Technology and Society Unit an der TU Graz</a
+          >
+        </li>
+      </ul>
+
+      <br />
+      <img
+        style="display: block"
+        src="https://cdn.pixabay.com/photo/2024/06/13/06/54/ai-generated-8826841_960_720.png"
+        alt="AI generated lighthouse"
+        width="50%"
+      />
+    </div>
+  </body>
+</html>

@@ -1,0 +1,26 @@
+{
+  "MD033": {
+    "allowed_elements": [
+      "img",
+      "svg",
+      "div",
+      "line",
+      "style",
+      "path",
+      "h4",
+      "iframe",
+      "a",
+      "rect",
+      "ul",
+      "li"
+    ]
+  },
+  "MD013": {
+    "line_length": 330,
+    "code_block_line_length": 120
+    },
+  "MD036": false,
+  "MD041": false,
+  "MD004": false,
+  "MD029": false
+}

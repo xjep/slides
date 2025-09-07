@@ -1,0 +1,251 @@
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Alex's Vegetarische Lasagne</title>
+  </head>
+  <style>
+    :root {
+      --text: rgb(230, 233, 243);
+      --background: rgb(11, 14, 23);
+      --primary: rgb(144, 158, 208);
+      --secondary: rgb(47, 61, 111);
+      --accent: rgb(149, 118, 146);
+    }
+
+    body {
+      font-family: Cambria;
+      color: var(--text);
+      background-color: var(--background);
+      padding: 0;
+      margin: 0;
+    }
+
+    a {
+      color: white;
+    }
+    h1 {
+      color: var(--accent);
+      font-weight: bold;
+    }
+    h3 {
+      margin-top: 0px;
+    }
+    img {
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .content {
+      padding: 5rem;
+    }
+    .wrapper {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 30px;
+      margin: 16px;
+      justify-content: space-evenly;
+    }
+    /* .wrapper .card {
+      max-width: 400px;
+      min-width: 140px;
+      display: flex;
+      flex-direction: column;
+      padding: 1rem;
+      border-radius: 0.5rem;
+      background-color: var(--primary);
+    } */
+    .wrapper .half {
+      max-width: 400px;
+    }
+    .menu {
+      overflow: hidden;
+      background-color: var(--primary);
+      position: fixed;
+      top: 0;
+      width: 100%;
+    }
+    .menu a {
+      float: left;
+      padding: 14px 16px;
+      padding: auto;
+    }
+  </style>
+  <body>
+    <div class="menu">
+      <a href="#Zutaten">Zutaten</a>
+      <a href="#Zeit">Zeit</a>
+      <a href="#Arbeitsschritte">Arbeitsschritte</a>
+      <a href="#Tipps">Tipps</a>
+    </div>
+    <h1 style="padding-top: 6rem; padding-left: 4rem">
+      Alex's Vegetarische Lasagne
+    </h1>
+
+    <div class="content">
+      <h2 id="Standards">Zutaten</h2>
+      <ul>
+        <li>12 Stück Lasagneplatten ohne Vorkochen</li>
+        <li>1 Brokkoli (ungeputzt) - ca. 400 g</li>
+        <li>1 Kohlrabi (ungeputzt) - ca. 300 g</li>
+        <li>1 Stange Lauch - ca. 200 g</li>
+        <li>1 Möhre - ca. 140 g</li>
+        <li>1 Zwiebel - ca. 80 g</li>
+        <li>1 Stangensellerie - ca. 90 g</li>
+        <li>1 Knoblauchzehe</li>
+        <li>400 g passierte Tomaten - 1 Dose oder Glas</li>
+        <li>400 g Tomaten, ganz geschält - 1 Dose oder Glas</li>
+        <li>200 g Schmand - Alternativ Créme Fraîche</li>
+        <li>
+          100 g geriebener Käse - z.B. Gouda jung, mittelalt, Edamer, Emmentaler
+        </li>
+        <li>3 EL Olivenöl</li>
+        <li>1 EL Tomatenmark</li>
+        <li>1 EL Senf</li>
+        <li>1 EL Italienische Kräuter - Trockengewürz</li>
+        <li>1 TL Salz</li>
+        <li>1/4 TL Zucker</li>
+        <li>1 Prise Schwarzer Pfeffer aus der Mühle</li>
+      </ul>
+    </div>
+    <div style="width: 100%; background-color: var(--background)">
+      <svg viewBox="0 0 899 79">
+        <path
+          fill="var(--secondary)"
+          d="m0 6 21.5-2.2c21.5-2.1 64.5-6.5 107.3.5 42.9 7 85.5 25.4 128.4 30 42.8 4.7 85.8-4.3 128.6-2.6 42.9 1.6 85.5 14 128.4 14.5 42.8.5 85.8-10.9 128.6-20 42.9-9.2 85.5-16.2 128.4-6.9 42.8 9.4 85.8 35 107.3 47.9l21.5 12.8h-900z"
+        />
+      </svg>
+    </div>
+
+    <div class="content" style="background-color: var(--secondary)">
+      <h3 id="Zeit">Zeit</h3>
+      <p><b>Gesamtzeit:</b> 1 Stunde</p>
+      <p><b>Zubereitungszeit:</b> 45 Minuten</p>
+    </div>
+    <div style="width: 100%; background-color: var(--secondary)">
+      <svg
+        id="visual"
+        viewBox="0 0 3600 370"
+        xmlns="http://www.w3.org/2000/svg"
+        xmlns:xlink="http://www.w3.org/1999/xlink"
+        version="1.1"
+      >
+        <path
+          fill="var(--background)"
+          d="M 0 120 L 120 101.2 C 240 82.8 480 45.2 720 54.8 C 960 64 1200 120 1440 169.2 C 1680 218.8 1920 261.2 2160 296.8 C 2400 332 2640 360 2880 313.2 C 3120 266.8 3360 145.2 3480 84.8 L 3600 24 V 380 H 0 Z"
+          stroke-linecap="round"
+          stroke-linejoin="miter"
+        ></path>
+      </svg>
+    </div>
+
+    <div class="content">
+      <h2 id="Arbeitsschritte">Arbeitsschritte</h2>
+      <div class="wrapper">
+        <ol class="half">
+          <li>
+            Den Backofen rechtzeitig auf 200 °C
+            <b>Ober- / Unterhitze</b> vorheizen.
+          </li>
+          <li>
+            1 Kohlrabi und 1 Möhre schälen und in sehr kleine Würfel schneiden
+            (oder auf einer Stand-Reibe grob reiben), 1 Stange Lauch sowie 1
+            Stangensellerie putzen, waschen und ebenfalls in sehr kleine Stücke.
+            schneiden. 1 Zwiebel und die 1 Knoblauchzehe schälen und fein
+            würfeln.
+          </li>
+          <li>
+            Den 1 Brokkoli gut abwaschen und ohne Strunk auf einer (Stand)-Reibe
+            fein reiben.
+          </li>
+          <li>
+            In einer großen Pfanne erhitzt Du 3 EL Olivenöl und lässt auf
+            mittlerer Stufe die Möhren- Zwiebel- und Knoblauch Würfel 2-3
+            Minuten gemeinsam dünsten.
+          </li>
+          <li>
+            Im Anschluss kommt das restliche Gemüse in die Pfanne und dünstet
+            kurz mit.
+          </li>
+          <li>
+            Nun gibst Du 1 EL Tomatenmark und 1 EL Senf zum Gemüse, lässt es
+            etwas anrösten und mengst es unter.
+          </li>
+          <li>
+            Danach mit 400 g geschälten Tomaten sowie 400 g passierten Tomaten
+            ablöschen und würzen mit 1 EL italienische Kräuter, 1 TL Salz, 1/4
+            TL Zucker und 1 Prise schwarzem Pfeffer.
+          </li>
+          <li>
+            Die Gemüsesoße für 10 Minuten mit halb geöffnetem Deckel auf
+            mittlerer Hitze köcheln lassen und gelegentlich umrühren.
+          </li>
+          <li>
+            Jetzt nimmst Du Deine Auflaufform zur Hand (diese muss nicht
+            eingefettet werden) und verteilst auf dem Boden etwa 1 Schöpflöffel
+            Gemüsesoße.
+          </li>
+          <li>
+            Dann legst Du 3 ungekochte Lasagne-Platten für die erste
+            Lasagne-Platten-Schicht in die Form.
+          </li>
+          <li>
+            Im Anschluss verteilst Du darauf 2 Schöpflöffel Gemüsesoße und
+            schichtest bis zur 4 Schicht ein. Bitte beachte, auf die 4. Schicht
+            / letzte Schicht kommt keine Gemüsesoße sondern Schmand!
+          </li>
+          <li>
+            Zum Abschluss verstreichst Du gleichmäßig besagte 200 g Schmand als
+            letzte Schicht auf den Lasagneplatten für die cremige Note.
+          </li>
+          <li>
+            Den 100 g Käse am besten frisch reiben und gleichmäßig auf der
+            Schmand-Schicht verteilen.
+          </li>
+          <li>
+            Jetzt gibst Du die Gemüselasagne für 30 Minuten auf die zweite
+            Schiene von unten in den vorgeheizten Backofen. Wenn Dir der Käse zu
+            dunkel wird einfach abdecken.
+          </li>
+          <li>
+            Ich wünsche Dir mit meinem Gemüselasagne Rezept viel Freude und
+            einen guten Appetit.
+          </li>
+        </ol>
+        <div class="half">
+          <img
+            style="max-width: 100%"
+            src="https://cdn.pixabay.com/photo/2016/11/06/23/24/broccoli-1804446_1280.jpg"
+            alt="Trolley Problem"
+          />
+        </div>
+      </div>
+    </div>
+    <div style="width: 100%; background-color: var(--background)">
+      <svg
+        id="visual"
+        viewBox="0 0 3600 370"
+        xmlns="http://www.w3.org/2000/svg"
+        xmlns:xlink="http://www.w3.org/1999/xlink"
+        version="1.1"
+      >
+        <path
+          fill="var(--secondary)"
+          d="M 0 120 L 120 101.2 C 240 82.8 480 45.2 720 54.8 C 960 64 1200 120 1440 169.2 C 1680 218.8 1920 261.2 2160 296.8 C 2400 332 2640 360 2880 313.2 C 3120 266.8 3360 145.2 3480 84.8 L 3600 24 V 380 H 0 Z"
+          stroke-linecap="round"
+          stroke-linejoin="miter"
+        ></path>
+      </svg>
+    </div>
+
+    <div class="content" style="background-color: var(--secondary)">
+      <h3 id="Tipps">Tipps</h3>
+      <p>
+        Wenn Du weniger <i>Kohlgeschmack</i> im Gemüselasagne Rezept haben
+        möchtest, kannst Du Brokkoli, Lauch und Kohlrabi auch sehr gut durch
+        gelbe und rote Paprika sowie Zucchini ersetzen. Das Variieren kann
+        eventuell auch mehr oder weniger Flüssigkeit mitbringen, den jedes
+        Gemüse wässert unterschiedlich.
+      </p>
+    </div>
+  </body>
+</html>

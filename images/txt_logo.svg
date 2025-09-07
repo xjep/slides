@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="1000"
+   height="1000"
+   viewBox="0 0 264.58332 264.58334"
+   version="1.1"
+   id="svg5"
+   sodipodi:docname="txt_logo.svg"
+   inkscape:version="1.3.2 (091e20e, 2023-11-25, custom)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#505050"
+     inkscape:zoom="0.831"
+     inkscape:cx="499.39832"
+     inkscape:cy="500"
+     inkscape:window-width="1920"
+     inkscape:window-height="1027"
+     inkscape:window-x="-8"
+     inkscape:window-y="79"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg5" />
+  <defs
+     id="defs2" />
+  <metadata
+     id="metadata856" />
+  <path
+     style="fill:#ffffff;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     d="m 83.646707,66.151148 h 77.721273 l 27.8369,34.072402 v 98.20868 H 83.646707 Z"
+     id="path60802" />
+  <path
+     id="path60336"
+     style="color:#000000;fill:#cccccc;stroke-width:0.264583;-inkscape-stroke:none;paint-order:fill markers stroke;fill-opacity:1"
+     d="M 82.847667,65.484398 V 199.09898 H 190.00392 V 100.54169 L 161.12041,65.484398 Z m 1.32292,1.32291 H 161.12041 V 100.54169 H 188.681 v 97.23437 H 84.170587 Z" />
+  <rect
+     style="fill:#808080;fill-opacity:1;stroke:none;stroke-width:2.11667;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:fill markers stroke"
+     id="rect925"
+     width="77.611122"
+     height="26.458332"
+     x="71.586037"
+     y="78.321976"
+     rx="1.3229169"
+     ry="1.3229166" />
+  <g
+     aria-label="EXE"
+     id="text929"
+     style="font-size:19.4028px;line-height:1.25;font-family:'Padauk Book';-inkscape-font-specification:'Padauk Book, Normal';letter-spacing:2.64583px;word-spacing:0px;fill:#ffffff;stroke-width:0.264583">
+    <path
+       d="M 95.4905 87 H 92.6631 V 85.4499 H 100.3181 V 87.0415 h -2.8274 V 97.6334 h -2 Z"
+       style="text-align:center;text-anchor:middle"
+       id="path1067" />
+    <path
+       d="m 104.65034,97.633461 4.43384,-6.461284 -3.9033,-5.72231 h 2.33061 l 2.82326,4.395947 2.76642,-4.395947 h 2.16007 l -3.92224,5.72231 4.43384,6.461284 h -2.33061 l -3.3538,-5.115973 -3.29696,5.115973 z"
+       style="text-align:center;text-anchor:middle"
+       id="path1069" />
+    <path
+       d="M 123.4905 87 H 120.6631 V 85.4499 H 128.3181 V 87.0415 h -2.8274 V 97.6334 h -2 Z"
+       style="text-align:center;text-anchor:middle"
+       id="path1071" />
+  </g>
+    <path
+     style="fill:none;fill-opacity:1;stroke:#808080;stroke-width:3.175;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     d="m 99.384127,121.43042 H 173.46746"
+     id="path933" />
+  <path
+     style="fill:none;fill-opacity:1;stroke:#808080;stroke-width:3.175;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     d="m 99.384127,140.56035 H 173.46746"
+     id="path935" />
+  <path
+     style="fill:none;fill-opacity:1;stroke:#808080;stroke-width:3.175;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     d="M 99.384127,159.69029 H 173.46746"
+     id="path937" />
+  <path
+     style="fill:none;fill-opacity:1;stroke:#808080;stroke-width:3.175;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     d="M 99.384127,178.82022 H 173.46746"
+     id="path939" />
+</svg>
