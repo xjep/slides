@@ -78,8 +78,8 @@ _Martin Kleindienst_
 <div>
 
 - `STRG` + `S`
-- `ẀINDOWS` + `L`
-- `ẀINDOWS` + `F`
+- `WINDOWS` + `L`
+- `WINDOWS` + `F`
 - `WINDOWS` + `P`
 - `WINDOWS` + `E`
 - `F2`
