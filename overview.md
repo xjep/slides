@@ -69,7 +69,7 @@ _Martin Kleindienst_
 - `STRG` + `V`
   </br>
 - `STRG` + `Z`
-- `STRG` + `Y` oder `STRG` + `ŞHIFT` + `Z`
+- `STRG` + `Y` oder `STRG` + `SHIFT` + `Z`
     </br>
 - `STRG` + `ALT` + `ENTF`
 
