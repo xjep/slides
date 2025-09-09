@@ -33,6 +33,15 @@ _Martin Kleindienst_
 
 ---
 
+## Rules
+
+- Eine Person darf ungefragt aufs WC gehen.
+- Es wird nicht herausgerufen sondern immer aufgezeigt.
+- Spiele spielen (Roblox, ...) ist nur erlaubt, wenn ich es sage. </br> **Auch in der Pause!**
+- Wenn ich etwas am Beamer erkläre wird geräuschlos aufgepasst und der Bildschirm ausgeschaltet.
+
+---
+
 ## Dateiendungen [1]
 
 - Das was im Namen einer Datei nach dem Punkt steht.
