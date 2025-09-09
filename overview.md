@@ -33,7 +33,15 @@ _Martin Kleindienst_
 
 ---
 
-## Dateiendungen
+## Dateiendungen [1]
+
+- Das was im Namen einer Datei nach dem Punkt steht.
+- z.B. .docx für Word Dateien, .jpg für Kamerabilder oder .png für Webgrafiken.
+- Müssen unter Windows im `Datei Explorer` standardmäßig erst sichtbar geschalten werden.
+
+---
+
+## Dateiendungen [2]
 
 <style scoped>
   footer {
@@ -52,9 +60,6 @@ _Martin Kleindienst_
 <div style="height: 140px;"></div>
 
 - Ändere die Dateiänderung einer **MS Word** Datei auf **.zip** !
-
-<!-- _footer: https://pixabay.com/vectors/zip-compressed-icon-archive-win-7040223/ </br> https://pixabay.com/vectors/microsoft-office-word-icon-file-7040222/
--->
 
 ---
 
@@ -162,3 +167,11 @@ _Martin Kleindienst_
 </svg>
 
 <img src="images/WordStreamer_focused.jpg" alt="focused" style="position: absolute; z-index: 2; top: 130px; left: 706px; width: 510px">
+
+---
+
+## Image Sources
+
+- https://pixabay.com/vectors/zip-compressed-icon-archive-win-7040223/
+- https://pixabay.com/vectors/microsoft-office-word-icon-file-7040222/
+
