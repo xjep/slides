@@ -93,6 +93,45 @@ _Martin Kleindienst_
 
 ---
 
+### ✏️ Bearbeitung & Text
+
+| Tastenkombination     | Funktion                     |
+|------------------------|------------------------------|
+| `STRG` + `A`           | Alles markieren              |
+| `STRG` + `X`           | Ausschneiden                 |
+| `STRG` + `C`           | Kopieren                     |
+| `STRG` + `V`           | Einfügen                     |
+| `STRG` + `Z`           | Rückgängig machen            |
+| `STRG` + `Y`           | Letzte Aktion wiederholen (Office, ...)            |
+| `STRG` + `SHIFT` + `Z` | Letzte Aktion wiederholen (Google Docs, ... )|
+
+---
+
+### 🖥️ Systemfunktionen & Dateien
+
+| Tastenkombination         | Funktion                              |
+|---------------------------|----------------------------------------|
+| `WINDOWS` + `E`           | Datei-Explorer öffnen                 |
+| `STRG` + `ALT` + `ENTF`   | Öffnet Sicherheitsmenü         |
+| `WINDOWS` + `L`           | Computer sperren                      |
+| `STRG` + `S`              | Speichern                             |
+| `F2`                      | Datei/Ordner umbenennen               |
+
+---
+
+### 🧭 Navigation & Fenster
+
+| Tastenkombination     | Funktion                                |
+|------------------------|------------------------------------------|
+| `WINDOWS` + `F`        | Suche öffnen                            |
+| `WINDOWS` + `P`        | Einstellungen für mehrere Bildschirme   |
+| `F5`                  | Aktualisieren (z. B. Webseite)          |
+| `TAB`                 | Zum nächsten Eingabefeld springen        |
+| `ALT` + `TAB`         | Zwischen offenen Fenstern wechseln       |
+
+
+---
+
 ## Google Search Operator
 
 - `"genau ẁas ich suchen will"`
