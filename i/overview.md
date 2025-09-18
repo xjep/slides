@@ -63,77 +63,43 @@ _Martin Kleindienst_
 
 ---
 
-## Tasten(kombinationen)
+## ✏️ Tastenkombinationen [1]
 
-<div class="columns">
-<div>
-
-- `STRG` + `A`
-- `STRG` + `X`
-- `STRG` + `C`
-- `STRG` + `V`
-  </br>
-- `STRG` + `Z`
-- `STRG` + `Y` oder `STRG` + `SHIFT` + `Z`
-    </br>
-- `STRG` + `ALT` + `ENTF`
-
-</div>
-
-<div>
-
-- `STRG` + `S`
-- `WINDOWS` + `L`
-- `STRG` + `F`
-- `WINDOWS` + `P`
-- `WINDOWS` + `E`
-- `F2`
-- `F5`
-- `TAB`
-- `ALT` + `TAB`
-
-</div>
-
-</div>
+| Tastenkombination      | Funktion                                                                        |
+| ---------------------- | ------------------------------------------------------------------------------- |
+| `STRG` + `A`           | <div data-marpit-fragment> Alles markieren </div>                               |
+| `STRG` + `X`           | <div data-marpit-fragment> Ausschneiden </div>                                  |
+| `STRG` + `C`           | <div data-marpit-fragment> Kopieren </div>                                      |
+| `STRG` + `V`           | <div data-marpit-fragment> Einfügen </div>                                      |
+| `STRG` + `Z`           | <div data-marpit-fragment> Rückgängig machen </div>                             |
+| `STRG` + `Y`           | <div data-marpit-fragment> Letzte Aktion wiederholen (Office, ...) </div>       |
+| `STRG` + `SHIFT` + `Z` | <div data-marpit-fragment> Letzte Aktion wiederholen (Google Docs, ... ) </div> |
 
 ---
 
-### ✏️ Bearbeitung & Text
+## 🖥️ Tastenkombinationen [2]
 
-| Tastenkombination     | Funktion                     |
-|------------------------|------------------------------|
-| `STRG` + `A`           | Alles markieren              |
-| `STRG` + `X`           | Ausschneiden                 |
-| `STRG` + `C`           | Kopieren                     |
-| `STRG` + `V`           | Einfügen                     |
-| `STRG` + `Z`           | Rückgängig machen            |
-| `STRG` + `Y`           | Letzte Aktion wiederholen (Office, ...)            |
-| `STRG` + `SHIFT` + `Z` | Letzte Aktion wiederholen (Google Docs, ... )|
+| Tastenkombination       | Funktion                                                  |
+| ----------------------- | --------------------------------------------------------- |
+| `WINDOWS` + `E`         | <div data-marpit-fragment> Datei-Explorer öffnen </div>   |
+| `STRG` + `ALT` + `ENTF` | <div data-marpit-fragment> Öffnet Sicherheitsmenü </div>  |
+| `WINDOWS` + `L`         | <div data-marpit-fragment> Computer sperren </div>        |
+| `STRG` + `S`            | <div data-marpit-fragment> Speichern </div>               |
+| `F2`                    | <div data-marpit-fragment> Datei/Ordner umbenennen </div> |
 
 ---
 
-### 🖥️ Systemfunktionen & Dateien
+## 🧭 Tastenkombinationen [3]
 
-| Tastenkombination         | Funktion                              |
-|---------------------------|----------------------------------------|
-| `WINDOWS` + `E`           | Datei-Explorer öffnen                 |
-| `STRG` + `ALT` + `ENTF`   | Öffnet Sicherheitsmenü         |
-| `WINDOWS` + `L`           | Computer sperren                      |
-| `STRG` + `S`              | Speichern                             |
-| `F2`                      | Datei/Ordner umbenennen               |
-
----
-
-### 🧭 Navigation & Fenster
-
-| Tastenkombination     | Funktion                                |
-|------------------------|------------------------------------------|
-| `STRG` + `F`        | Suche öffnen                            |
-| `WINDOWS` + `P`        | Einstellungen für mehrere Bildschirme   |
-| `F5`                  | Aktualisieren (z. B. Webseite)          |
-| `TAB`                 | Zum nächsten Eingabefeld springen        |
-| `ALT` + `TAB`         | Zwischen offenen Fenstern wechseln       |
-
+| Tastenkombination           | Funktion                                                                |
+| --------------------------- | ----------------------------------------------------------------------- |
+| `STRG` + `F`                | <div data-marpit-fragment> Suche öffnen </div>                          |
+| `WINDOWS` + `P`             | <div data-marpit-fragment> Einstellungen für mehrere Bildschirme </div> |
+| `F5`                        | <div data-marpit-fragment> Aktualisieren (z. B. Webseite) </div>        |
+| `TAB`                       | <div data-marpit-fragment> Zum nächsten Eingabefeld springen </div>     |
+| `ALT` + `TAB`               | <div data-marpit-fragment> Zwischen offenen Fenstern wechseln </div>    |
+| `STRG` + `+` (oder Mausrad) | <div data-marpit-fragment> Hineinzoomen </div>                          |
+| `STRG` + `-` (oder Mausrad) | <div data-marpit-fragment> Hinauszoomen </div>                          |
 
 ---
 
@@ -175,4 +141,3 @@ _Martin Kleindienst_
 
 - https://pixabay.com/vectors/zip-compressed-icon-archive-win-7040223/
 - https://pixabay.com/vectors/microsoft-office-word-icon-file-7040222/
-
