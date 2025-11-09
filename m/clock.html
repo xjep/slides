@@ -221,7 +221,13 @@
         </select>
       </div>
 
-      <div id="scoreboard">Score: 0</div>
+      <div id="scoreboard-container" style="display: flex; align-items: center; gap: 10px; font-size: 20px; margin: 10px; font-weight: bold;">
+<div id="scoreboard-container" style="display: flex; align-items: center; gap: 0px; font-size: 20px; margin: 0px; font-weight: bold;">
+  <div id="playerName">Player</div>
+  <div id="scoreboard">Score: 0</div>
+</div>
+
+</div>
       <div class="clock-box" id="clockBox">
         <canvas id="clockCanvas" width="250" height="250"></canvas><br />
         <input type="text" id="timeInput" placeholder="Time (hh:mm)" />
@@ -239,8 +245,33 @@
       </div>
     </content>
     <script>
+
+let playerName = "";
+  let score = 0;
+
+  // Prompt for name before starting the exercise
+  function askPlayerName() {
+    playerName = prompt("Bitte gib deinen Namen ein:", "Max");
+    if (!playerName) playerName = "Player";
+    document.getElementById("playerName").textContent = playerName + "'s";
+  }
+
+  askPlayerName(); // Call immediately on page load
+
+  // Update scoreboard with player's name
+  function updateScoreboard() {
+    document.getElementById("scoreboard").textContent = `Score: ${score}`;
+    document.getElementById("playerName").textContent = playerName + "'s";
+  }
+
+  // Example: after checking answer
+  function checkAnswer() {
+    // ... bestehender Code zur Punkteberechnung
+    score += points;
+    updateScoreboard(); // Update display
+  }
+
       let currentClock = null;
-      let score = 0;
       let difficulty = "easy";
       const difficultySettings = {
         easy: { minutes: [0], reward: 5, penalty: 3 },
