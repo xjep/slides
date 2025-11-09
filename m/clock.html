@@ -1,0 +1,515 @@
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Winkel an der Uhr</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+
+    <style>
+      body {
+        font-family: "Roboto", sans-serif;
+        margin: 0;
+        background: #f0f2f5;
+        color: #333;
+      }
+
+      content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+
+      header {
+        background: #2c3e50;
+        color: white;
+        padding: 1rem 2rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+      }
+
+      header h1 {
+        margin: 0;
+        font-size: 1.8rem;
+      }
+
+      .header-left h1 {
+        margin: 0;
+        font-size: 1.6rem;
+      }
+
+      .header-right {
+        display: flex;
+        gap: 0.7rem;
+        flex-wrap: wrap;
+      }
+
+      .header-right a {
+        color: white;
+        text-decoration: none;
+        font-size: 1rem;
+        display: flex;
+        align-items: center;
+        gap: 0.4rem;
+        transition: color 0.3s;
+      }
+
+      nav {
+        display: flex;
+        gap: 1rem;
+        flex-wrap: wrap;
+      }
+
+      nav a {
+        color: white;
+        text-decoration: none;
+        font-size: 1rem;
+        transition: color 0.3s;
+      }
+
+      nav a:hover {
+        color: #1abc9c;
+      }
+
+      .container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 2rem;
+        gap: 1rem;
+      }
+
+      .card {
+        background: white;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        width: 300px;
+        padding: 1.5rem;
+        text-align: center;
+        transition: transform 0.2s;
+        cursor: pointer;
+      }
+
+      .card:hover {
+        transform: scale(1.03);
+      }
+
+      .card i {
+        font-size: 2.5rem;
+        color: #2980b9;
+        margin-bottom: 1rem;
+      }
+
+      .card h3 {
+        margin-bottom: 1rem;
+        font-size: 1.2rem;
+      }
+
+      .card p {
+        font-size: 0.95rem;
+        color: #555;
+      }
+
+      footer {
+        text-align: center;
+        padding: 1rem;
+        background: #ecf0f1;
+        font-size: 0.9rem;
+      }
+
+      canvas {
+        background: #fff3e0;
+        border-radius: 50%;
+        box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+      }
+      .clock-box {
+        text-align: center;
+        margin-top: 20px;
+      }
+      input {
+        margin: 4px;
+        text-align: center;
+        padding: 5px;
+        font-size: 16px;
+        width: 100px;
+        border: 2px solid #ccc;
+        border-radius: 4px;
+        transition: background-color 0.3s, border-color 0.3s;
+      }
+      input.correct {
+        background-color: #c8f7c5;
+        border-color: #28a745;
+      }
+      input.wrong {
+        background-color: #f7c5c5;
+        border-color: #dc3545;
+      }
+      button,
+      select {
+        margin-top: 15px;
+        padding: 10px 20px;
+        font-size: 16px;
+        background: #007bff;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+      }
+      button:hover:not([disabled]),
+      select:hover {
+        background: #0056b3;
+      }
+      select {
+        background: #17a2b8;
+      }
+      #scoreboard {
+        font-size: 20px;
+        margin: 10px;
+        font-weight: bold;
+      }
+      #feedback {
+        font-size: 18px;
+        margin-top: 10px;
+        height: 24px;
+      }
+      #solution {
+        margin-top: 10px;
+        font-size: 16px;
+        color: #444;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <div class="header-left" style="padding-bottom: 4px">
+        <h1>Präsentationsfolien, Übungen & Links</h1>
+      </div>
+      <nav class="header-right">
+        <a href="../" title="Zur Übersicht">
+          <i class="fa fa-home"></i> Übersicht
+        </a>
+        <a href="../m/" title="Zu Mathematik">
+          <i class="fa fa-calculator"></i> Mathematik
+        </a>
+        <a href="../i/" title="Zu Digitale Grundbildung & Informatik">
+          <i class="fa fa-computer"></i> Digitale Grundbildung & Informatik
+        </a>
+      </nav>
+    </header>
+    <content>
+      <h2>🕓 Clock Angle Challenge</h2>
+      <p>
+        Enter the time (hh:mm) and the measured angle in degrees (°), then check
+        your answer!
+      </p>
+
+      <div>
+        <label for="difficulty">Difficulty: </label>
+        <select id="difficulty">
+          <option value="easy" selected>Easy</option>
+          <option value="intermediate">Intermediate</option>
+          <option value="hard">Hard</option>
+          <option value="extreme">Extreme</option>
+        </select>
+      </div>
+
+      <div id="scoreboard">Score: 0</div>
+      <div class="clock-box" id="clockBox">
+        <canvas id="clockCanvas" width="250" height="250"></canvas><br />
+        <input type="text" id="timeInput" placeholder="Time (hh:mm)" />
+        <input
+          type="number"
+          id="angleInput"
+          placeholder="Angle (°)"
+          min="0"
+          max="360"
+        /><br />
+        <button id="checkBtn" onclick="checkAnswer()">Check Answer</button>
+        <button onclick="nextClock()">Next Clock</button>
+        <div id="feedback"></div>
+        <div id="solution"></div>
+      </div>
+    </content>
+    <script>
+      let currentClock = null;
+      let score = 0;
+      let difficulty = "easy";
+      const difficultySettings = {
+        easy: { minutes: [0], reward: 5, penalty: 3 },
+        intermediate: { minutes: [30], reward: 10, penalty: 4 },
+        hard: { minutes: [20, 40], reward: 15, penalty: 5 },
+        extreme: { minutes: [10, 50], reward: 20, penalty: 6 },
+      };
+
+      function drawClock(
+        canvasId,
+        hour,
+        minute,
+        direction,
+        showSolution = false
+      ) {
+        const canvas = document.getElementById(canvasId);
+        const ctx = canvas.getContext("2d");
+        const r = canvas.width / 2;
+
+        ctx.clearRect(0, 0, canvas.width, canvas.height);
+        ctx.save();
+        ctx.translate(r, r);
+
+        // Face
+        ctx.beginPath();
+        ctx.arc(0, 0, r * 0.95, 0, 2 * Math.PI);
+        ctx.fillStyle = "#ffcc80";
+        ctx.fill();
+        ctx.lineWidth = 3;
+        ctx.strokeStyle = "#000";
+        ctx.stroke();
+
+        // Hour marks and numbers
+        for (let i = 0; i < 12; i++) {
+          const angle = (i * Math.PI) / 6;
+          ctx.save();
+          ctx.rotate(angle);
+          ctx.beginPath();
+          ctx.moveTo(r * 0.85, 0);
+          ctx.lineTo(r * 0.95, 0);
+          ctx.lineWidth = 3;
+          ctx.stroke();
+          ctx.restore();
+
+          const num = i || 12;
+          const x = Math.cos(angle - Math.PI / 2) * r * 0.75;
+          const y = Math.sin(angle - Math.PI / 2) * r * 0.75;
+          ctx.font = "18px sans-serif";
+          ctx.textAlign = "center";
+          ctx.textBaseline = "middle";
+          ctx.fillStyle = "#000";
+          ctx.fillText(num.toString(), x, y);
+        }
+
+        // Minute ticks
+        for (let i = 0; i < 60; i++) {
+          const angle = (i * Math.PI) / 30;
+          ctx.save();
+          ctx.rotate(angle);
+          ctx.beginPath();
+          ctx.moveTo(r * 0.9, 0);
+          ctx.lineTo(r * 0.95, 0);
+          ctx.lineWidth = 1;
+          ctx.stroke();
+          ctx.restore();
+        }
+
+        // Compute hand angles
+        const hourAngle = (Math.PI / 6) * ((hour % 12) + minute / 60);
+        const minuteAngle = (Math.PI / 30) * minute;
+
+        // Hands
+        ctx.save();
+        ctx.rotate(hourAngle);
+        ctx.beginPath();
+        ctx.moveTo(0, 0);
+        ctx.lineTo(0, -r * 0.5);
+        ctx.lineWidth = 5;
+        ctx.lineCap = "round";
+        ctx.stroke();
+        ctx.restore();
+
+        ctx.save();
+        ctx.rotate(minuteAngle);
+        ctx.beginPath();
+        ctx.moveTo(0, 0);
+        ctx.lineTo(0, -r * 0.75);
+        ctx.lineWidth = 3;
+        ctx.stroke();
+        ctx.restore();
+
+        // Center dot
+        ctx.beginPath();
+        ctx.fillStyle = "red";
+        ctx.arc(0, 0, 4, 0, 2 * Math.PI);
+        ctx.fill();
+
+        // Arc between hands
+        let startAngle = hourAngle - Math.PI / 2;
+        let endAngle = minuteAngle - Math.PI / 2;
+        ctx.beginPath();
+        ctx.lineWidth = 2;
+        ctx.strokeStyle = "rgba(255,0,0,0.6)";
+        ctx.arc(0, 0, r * 0.39, startAngle, endAngle, direction);
+        ctx.stroke();
+
+        // Compute angle
+        let rawDiff = endAngle - startAngle;
+        if (direction && rawDiff > 0) rawDiff -= 2 * Math.PI;
+        if (!direction && rawDiff < 0) rawDiff += 2 * Math.PI;
+        const angleDeg = Math.abs((rawDiff * 180) / Math.PI);
+
+        // Label for angle (only show solution)
+        if (showSolution) {
+          const midAngle = startAngle + rawDiff / 2;
+          const labelR = r * 0.52;
+          ctx.fillStyle = "red";
+          ctx.font = "14px sans-serif";
+          ctx.textAlign = "center";
+          ctx.textBaseline = "middle";
+          ctx.fillText(
+            Math.round(angleDeg) + "°",
+            labelR * Math.cos(midAngle),
+            labelR * Math.sin(midAngle)
+          );
+        }
+
+        ctx.restore();
+        return Math.round(angleDeg);
+      }
+
+      function normalizeHour(hourStr) {
+        let h = parseInt(hourStr, 10);
+        if (isNaN(h)) return null;
+        if (h === 12) h = 0;
+        return h;
+      }
+
+      function randomHour() {
+        return Math.floor(Math.random() * 12) + 1;
+      }
+      function randomDirection() {
+        return Math.random() < 0.5;
+      }
+
+      function nextClock() {
+        const settings = difficultySettings[difficulty];
+        const hour = randomHour();
+        const minute =
+          settings.minutes[Math.floor(Math.random() * settings.minutes.length)];
+        const direction = randomDirection();
+        const angle = drawClock("clockCanvas", hour, minute, direction);
+        currentClock = { hour, minute, direction, angle };
+
+        const timeInput = document.getElementById("timeInput");
+        const angleInput = document.getElementById("angleInput");
+        const feedback = document.getElementById("feedback");
+        const solutionDiv = document.getElementById("solution");
+        const checkBtn = document.getElementById("checkBtn");
+
+        timeInput.value = "";
+        angleInput.value = "";
+        feedback.textContent = "";
+        solutionDiv.textContent = "";
+        checkBtn.disabled = false;
+        checkBtn.style.opacity = "1";
+
+        timeInput.classList.remove("correct", "wrong");
+        angleInput.classList.remove("correct", "wrong");
+      }
+
+      function checkAnswer() {
+        const timeInput = document.getElementById("timeInput");
+        const angleInput = document.getElementById("angleInput");
+        const feedback = document.getElementById("feedback");
+        const solutionDiv = document.getElementById("solution");
+        const checkBtn = document.getElementById("checkBtn");
+
+        checkBtn.disabled = true;
+        checkBtn.style.opacity = "0.6";
+
+        let timeStr = timeInput.value.trim();
+        const angleVal = parseFloat(angleInput.value);
+        const settings = difficultySettings[difficulty];
+
+        // Normalize time format like "0:30" → "00:30"
+        if (/^\d{1}:\d{2}$/.test(timeStr)) {
+          timeStr = "0" + timeStr;
+          timeInput.value = timeStr;
+        }
+
+        const timeMatch = timeStr.match(/^(\d{1,2}):(\d{2})$/);
+        let timeCorrect = false;
+
+        if (timeMatch) {
+          const [_, hStr, mStr] = timeMatch;
+          const h = normalizeHour(hStr);
+          const m = parseInt(mStr);
+          const correctHour = currentClock.hour % 12;
+          const studentHour = h % 12;
+          if (m === currentClock.minute && studentHour === correctHour) {
+            timeCorrect = true;
+          }
+        }
+
+        const angleCorrect = Math.abs(angleVal - currentClock.angle) <= 0; // tolerance for angle input
+
+        // Coloring logic
+        timeInput.classList.remove("correct", "wrong");
+        angleInput.classList.remove("correct", "wrong");
+
+        if (timeInput.value && angleInput.value) {
+          timeInput.classList.add(timeCorrect ? "correct" : "wrong");
+          angleInput.classList.add(angleCorrect ? "correct" : "wrong");
+        } else if (timeInput.value || angleInput.value) {
+          timeInput.classList.add("wrong");
+          angleInput.classList.add("wrong");
+        }
+
+        let points = 0;
+        if (timeInput.value === "" && angleInput.value === "") {
+          feedback.textContent = "⏳ No answer given.";
+          feedback.style.color = "#777";
+        } else if (timeCorrect && angleCorrect) {
+          points = settings.reward;
+          feedback.textContent = `✅ Correct! +${points} points`;
+          feedback.style.color = "green";
+        } else {
+          points = -settings.penalty;
+          feedback.textContent = `❌ Wrong. −${Math.abs(points)} points`;
+          feedback.style.color = "red";
+        }
+
+        score += points;
+        document.getElementById("scoreboard").textContent = `Score: ${score}`;
+        (document.getElementById("scoreboard").style.color =
+          points > 0 ? "green" : points < 0 ? "red" : "black"),
+          setTimeout(
+            () => (document.getElementById("scoreboard").style.color = "black"),
+            1500
+          );
+
+        // Show solution
+        const correctTime = `${String(currentClock.hour).padStart(
+          2,
+          "0"
+        )}:${String(currentClock.minute).padStart(2, "0")}`;
+        solutionDiv.textContent = `🕐 Correct Time: ${correctTime}`;
+        drawClock(
+          "clockCanvas",
+          currentClock.hour,
+          currentClock.minute,
+          currentClock.direction,
+          true
+        );
+      }
+
+      // Difficulty change event → new clock
+      document.getElementById("difficulty").addEventListener("change", (e) => {
+        difficulty = e.target.value;
+        nextClock();
+      });
+
+      // Always default to "easy" after reload
+      window.onload = () => {
+        document.getElementById("difficulty").value = "easy";
+        difficulty = "easy";
+        nextClock();
+      };
+    </script>
+  </body>
+</html>
