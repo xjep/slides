@@ -149,7 +149,7 @@ HTML 5.2 (14.12.2017)
 
 ---
 
-#### Und wozu jetzt der Spaß?
+#### Was kann man nun damit machen?
 
 <style scoped>
   footer {
