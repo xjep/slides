@@ -13,12 +13,12 @@ backgroundImage: url('https://marp.app/assets/hero-background.svg')
   },
   img[alt~="rightbound"] {
     margin-top: -180px;
-    height: 600px;
-    margin-right: -70px;
+    height: 500px;
+    /* margin-right: -60px; */
     }
 </style>
 
-# HTML Grundlagen
+# HTML
 
 _Martin Kleindienst_
 
@@ -40,7 +40,7 @@ _Martin Kleindienst_
 HTML 5.2 (14.12.2017)
 - Dateiendungen: .html .htm
 - **Leerzeichen und Zeilenumbrüche werden nicht ausgewertet!**
-- Kommentare werden mit `<!--` zum Öffnen und `-->` zum Schließen erstellt
+- Kommentare werden mit `<!--` zum Öffnen und `-->` zum Schließen erstellt.
 
 <!-- _footer: https://pixabay.com/vectors/file-format-type-extension-cutout-7084006/ -->
 
