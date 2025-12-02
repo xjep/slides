@@ -197,13 +197,12 @@ Strukturiere das Dokument wie folgt:
 
 ## Arbeitsauftrag [2]
 
-3. Gib die Lizenz des Bildes und den Link zum Bild unter dem Bild als Text an. (Verwende dazu das `<a>` Element!)
-4. Überschriftsebene 2: Zutaten
-5. Ungeordnete Liste aus den Zutaten
-6. Überschriftsebene 2: Zeit
-7. Gib die Gesamtzeit an.
-8. Gib die Zubereitungszeit an.
-9. Überschriftsebene 2: Arbeitsschritte
+3. Überschriftsebene 2: Zutaten
+4. Ungeordnete Liste aus den Zutaten
+5. Überschriftsebene 2: Zeit
+6. Gib die Gesamtzeit an.
+7. Gib die Zubereitungszeit an.
+8. Überschriftsebene 2: Arbeitsschritte
 
 ---
 
