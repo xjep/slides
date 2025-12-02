@@ -62,7 +62,7 @@ Es wäre doch praktisch, wenn sich die Bildgröße abhängig von der Fensterbrei
   <style>
     /* Hier wäre Platz für "Internal CSS". Aber dazu auch gleich mehr */
   </style>
-</html>
+</html>w"><
 ```
 
 ---
@@ -221,9 +221,42 @@ Es wäre doch praktisch, wenn sich die Bildgröße abhängig von der Fensterbrei
 
 ---
 
-## Auftrag [1]
+## Auftrag 1
 
-- Kommentiere das Bild aus. (Wir machen später damit etwas.)
+- Erstelle ein neues HTML Dokument und lege den Metadaten im Head wie beim letzten mal fest.
+- Suche dir 2 Sprachen aus und lege den `title` passend fest.
+- Baue danach den Body wie folgt auf. (Als Beispiel wurde hier Englisch und Deutsch ausgewählt)
+  - Überschriftsebene 1: Deutsch Englisch
+  - Überschriftsebene 2: Die Zahlen in Deutsch
+  - Geordnete Liste mit den ersten 15 Zahlen in Deutsch
+  - Überschriftsebene 2: Die Zahlen in Englisch
+
+---
+
+- Fortsetzung
+  - Geordnete Liste mit den ersten 15 Zahlen in Deutsch
+  - Überschriftsebene 2: Wichtige Redewendungen in Deutsch
+  - Ungeordnete Liste mit wichtigen Redewendungen (z.B. "Wie geht es dir")
+  - Überschriftsebene 2: Wichtige Redewendungen in Englisch
+  - Ungeordnete Liste der gleichen Redewendungen in Deutsch, jetzt in Englisch
+  - Überschriftsebene 2: Kurze Geschichte in Deutsch
+  - Eine Kurze Geschichte mit mehrere Paragraphen in Deutsch
+
+---
+
+- Fortsetzung
+  - Überschriftsebene 2: Kurze Geschichte in Deutsch
+  - Eine Kurze Geschichte mit mehrere Paragraphen in Deutsch
+
+Wenn die Geschichte KI generiert ist, muss das angegeben werden. Es darf auch eine Übersetzungssoftware verwendet werden. Wichtig ist, dass die Geschichte in einfacher Sprache geschrieben ist.
+
+Gib anschließend den Überschriften passende Farben
+
+---
+
+## Auftrag 2 [a]
+
+- Kommentiere das Bild von der HTML Übung aus. (Wir machen später damit etwas.)
 - Lege eine Farbpalette für dein HTML Dokument fest. Du kannst dafür z.B. [diese Seite](https://www.realtimecolors.com/) nutzen.
 
 ```html
@@ -240,7 +273,7 @@ Es wäre doch praktisch, wenn sich die Bildgröße abhängig von der Fensterbrei
 
 ---
 
-## Auftrag [2]
+## Auftrag 2 [b]
 
 - Ändere für das gesamte Dokument die Schriftart.
 - Gib dem Hintergrund eine deiner ausgewählten Farben.
@@ -259,7 +292,7 @@ Es wäre doch praktisch, wenn sich die Bildgröße abhängig von der Fensterbrei
 
 ---
 
-## Auftrag [3]
+## Auftrag 2 [c]
 
 Gib jedem zweiten Abschnitt (Überschrift + Weiteres Element) die gleiche Hintergrundfarbe und gib den Abschnitten etwas ``padding``.
 
@@ -280,7 +313,7 @@ Gib jedem zweiten Abschnitt (Überschrift + Weiteres Element) die gleiche Hinter
 
 ---
 
-## Auftrag [4]
+## Auftrag 2 [d]
 
 - Füge im Abschnitt `Zutaten` das Bild wieder ein.
 - Stelle sicher, dass das Bild abhängig von der Fenstergröße entweder neben oder unter der Liste mit den Zutaten angezeigt wird.
@@ -289,21 +322,7 @@ Gib jedem zweiten Abschnitt (Überschrift + Weiteres Element) die gleiche Hinter
 
 ---
 
-## Auftrag [5] (Machen wir gemeinsam)
-
-- Füge Zwischen den Abschnitten einen Übergang mit einer Vektorgrafik ein.
-- Nutze zum Erstellen der Vektorgrafik [Haikei](https://app.haikei.app/) und passe den Pfad mit dem [svg-path-editor](https://yqnn.github.io/svg-path-editor/) an.
-
-```html
-<svg viewBox="0 0 3600 370">
-  <!-- Parameter sind anzupassen! -->
-  <path fill="DIE_ANDERE_FARBE" d="" />
-</svg>
-```
-
----
-
-## Auftrag [6]
+## Auftrag 2 [e]
 
 Füge ein fixiertes Menü für die einzelnen Überschriften ein.
 
