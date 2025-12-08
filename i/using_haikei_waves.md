@@ -106,4 +106,6 @@ Außerdem müssen wir den Hintergrund verkleinern in dem wir das `rect` Element 
 
 ## Source Code kopieren
 
-Nun können wir den Code in unsere vorbereitete HTML Datei an den gewünschten Stellen hineinkopieren und evtl. auch die Farben anpassen.
+Nun können wir den Code in unsere vorbereitete HTML Datei an den gewünschten Stellen hineinkopieren und auch die Farben anpassen.
+
+![VS Code Screenshot rightbound](images/using_haikei_waves/final.png)
