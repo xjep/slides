@@ -28,10 +28,10 @@ Informatik 9. Schulstufe
 
 - Wer ist der Urheber der Studie?
 - Was wird bei dieser Studie abgefragt?
-- Vergleiche die Ergebnisse der JIM Studie von 2014 und 2024.
-- Was lässt sich daraus ableiten?
+- Gehe auch kurz auf die KIM Studie ein!
+- Vergleiche die Ergebnisse der JIM Studien der letzten 20 Jahren miteinander. Welche Trends sind dabei zu erkennen?
 
-Dieses Thema lebt davon Statistiken aus den Vorjahren mit den aktuellen zu vergleichen. Das soll dabei helfen, den Medienwandel besser einschätzen zu können.
+Dieses Thema lebt davon, sich intensiv mit den Statistiken der unterschiedlichen Jahren zu beschäftigen. Das Kernstück der Präsentation sollte die Aufarbeitung der Entwicklung der Mediennutzung der letzten ~20 Jahre sein.
 
 ---
 
