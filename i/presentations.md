@@ -87,7 +87,7 @@ Dieses Thema lebt davon, sich intensiv mit den Statistiken der unterschiedlichen
 
 ---
 
-## 8. Open Source Software (2P)
+## 7. Open Source Software (2P)
 
 - Gib die Definition von OSS wieder und erkläre was darunter gemeint ist!
 - Welche Vor- und Nachteile lassen sich daraus gegenüber Closed Source Software ableiten?
@@ -97,7 +97,7 @@ Dieses Thema lebt davon, sich intensiv mit den Statistiken der unterschiedlichen
 
 ---
 
-## 7. Betriebssysteme (2P)
+## 8. Betriebssysteme (2P)
 
 - Was ist ein Betriebssystem?
 - Nenne ein paar Beispiele von Betriebssystemen!
