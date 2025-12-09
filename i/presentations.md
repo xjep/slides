@@ -19,8 +19,7 @@ Informatik 9. Schulstufe
 - Präsentationsfolien
 - Kurzes Handout
 - Pro Person 3 geschlossene Fragen zum Thema
-- Die folgenden Bulletpoints stellen einen Grundstock dar.
-- Für eine lehrreiche und informative Vorstellung des Themas bedarf es weiterer Vertiefung in die Thematiken.
+- Die folgenden Bulletpoints stellen einen Grundstock dar. Für eine lehrreiche und informative Vorstellung des Themas bedarf es weiterer Vertiefung in die Thematiken.
 - Die Verwendung von KI ist verboten!
 
 ---
@@ -80,9 +79,10 @@ Dieses Thema lebt davon Statistiken aus den Vorjahren mit den aktuellen zu vergl
 ## 6. Aufbau von Digitalen Endgeräten (2P)
 
 - Aus welchen Bauteilen besteht ein digitales Endgerät?
-- Erkläre die Funktion dieser Bauteile
+- Beschreibe die Bauteile und gehe ein wenig auf die aktuellen Entwicklungen ein!
+- Erkläre die Funktion dieser Bauteile!
 - Stelle HDD und SSD gegenüber? Worin liegen ihre Stärken und Schwächen?
-- Ist eine Grafikkarte zwingend erforderlich?
+- Welche Bauteile sind optional, welche muss ein digitales Endgerät haben?
 - Gib einen aktuellen Überblick, welche Bauteile von einem PC den Endpreis bestimmen (sollten).
 
 ---
@@ -93,7 +93,7 @@ Dieses Thema lebt davon Statistiken aus den Vorjahren mit den aktuellen zu vergl
 - Welche Vor- und Nachteile lassen sich daraus gegenüber Closed Source Software ableiten?
 - Wie finanziert sich OSS?
 - Nenne ein paar (evtl. bekannte) Beispiele von OSS!
-- Stelle 2 Beispiele von OSS kurz vor (z.B. Signal, Libre Office).
+- Stelle ein paar Beispiele von OSS kurz vor (z.B. Signal, Libre Office).
 
 ---
 
