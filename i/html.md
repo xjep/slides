@@ -178,51 +178,6 @@ HTML 5.2 (14.12.2017)
 
 ---
 
-## Arbeitsauftrag [1]
-
-Erstelle ein HTML Dokument mit folgenden Vorgaben
-
-- Lege die Metadaten wie besprochen fest
-- Gib dem Dokument den Titel: `DEIN_VORNAME`'s `GERICHT`
-
-Strukturiere das Dokument wie folgt:
-
-1. Überschriftsebene 1: `DEIN_VORNAME`'s `GERICHT`
-2. Füge ein offen lizenziertes Symbolbild für dein Gericht ein.
-
-<!-- _footer: https://unsplash.com/,  https://pixabay.com/ und https://www.pexels.com/ sind gute Bilderquellen
--->
-
----
-
-## Arbeitsauftrag [2]
-
-3. Überschriftsebene 2: Zutaten
-4. Ungeordnete Liste aus den Zutaten
-5. Überschriftsebene 2: Zeit
-6. Gib die Gesamtzeit an.
-7. Gib die Zubereitungszeit an.
-8. Überschriftsebene 2: Arbeitsschritte
-9. Formuliere die Arbeitsschritte in Form einer geordneten Liste.
-
----
-
-## Arbeitsauftrag [3]
-
-10. Überschriftsebene 3: Tipps
-11. Verfasse einen kurzen Text mit Tipps zum Rezept
-12. Hebe die wichtigsten Textstellen fett bzw. kursiv hervor.
-
-Speichere das Dokument unter dem folgenden Namen ab:
-
-`DEIN_NACHNAME`_gericht.html
-
-Zur Recherche empfiehlt sich die folgende Website: <https://www.w3schools.com/html/default.asp>
-
-<!-- footer: "" -->
-
----
-
 ## Gibt's nicht was besseres zum Arbeiten?
 
 <style scoped>
@@ -250,12 +205,6 @@ Zur Recherche empfiehlt sich die folgende Website: <https://www.w3schools.com/ht
 
 ---
 
-## Zusatzauftrag
+## Wo finde ich weitere Informationen?
 
-14. Bette ein passendes Youtube Video unter der Liste mit den Arbeitsschritten ein.
-
-Tipp: Rufen das YouTube-Video auf. Unter "Teilen" gibt es die Option "Einbetten".
-
-## Musterlösung
-
-<https://youtu.be/o9nrYCr3re0>
+<https://www.w3schools.com/html/default.asp>

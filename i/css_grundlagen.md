@@ -221,43 +221,19 @@ Es wäre doch praktisch, wenn sich die Bildgröße abhängig von der Fensterbrei
 
 ---
 
-## Auftrag 1
+## Zusatzauftrag
 
-- Erstelle ein neues HTML Dokument und lege den Metadaten im Head wie beim letzten mal fest.
-- Suche dir 2 Sprachen aus und lege den `title` passend fest.
-- Baue danach den Body wie folgt auf. (Als Beispiel wurde hier Englisch und Deutsch ausgewählt)
-  - Überschriftsebene 1: Deutsch Englisch
-  - Überschriftsebene 2: Die Zahlen in Deutsch
-  - Geordnete Liste mit den ersten 15 Zahlen in Deutsch
-  - Überschriftsebene 2: Die Zahlen in Englisch
+Stöbere in den Templates von
+<https://www.free-css.com/free-css-templates>
+und such dir eines davon aus.
+
+Notiere dir, was dir an diesem Template so gut gefällt.
 
 ---
 
-- Fortsetzung
-  - Geordnete Liste mit den ersten 15 Zahlen in Deutsch
-  - Überschriftsebene 2: Wichtige Redewendungen in Deutsch
-  - Ungeordnete Liste mit wichtigen Redewendungen (z.B. "Wie geht es dir")
-  - Überschriftsebene 2: Wichtige Redewendungen in Englisch
-  - Ungeordnete Liste der gleichen Redewendungen in Deutsch, jetzt in Englisch
-  - Überschriftsebene 2: Kurze Geschichte in Deutsch
-  - Eine Kurze Geschichte mit mehrere Paragraphen in Deutsch
+## Variablen [1]
 
----
-
-- Fortsetzung
-  - Überschriftsebene 2: Kurze Geschichte in Deutsch
-  - Eine Kurze Geschichte mit mehrere Paragraphen in Deutsch
-
-Wenn die Geschichte KI generiert ist, muss das angegeben werden. Es darf auch eine Übersetzungssoftware verwendet werden. Wichtig ist, dass die Geschichte in einfacher Sprache geschrieben ist.
-
-Gib anschließend den Überschriften passende Farben
-
----
-
-## Auftrag 2 [a]
-
-- Kommentiere das Bild von der HTML Übung aus. (Wir machen später damit etwas.)
-- Lege eine Farbpalette für dein HTML Dokument fest. Du kannst dafür z.B. [diese Seite](https://www.realtimecolors.com/) nutzen.
+In CSS können Variablen deklariert werden um beispielsweise eine Farbpalette nutzen zu können. [Diese Seite](https://www.realtimecolors.com/) kann dabei helfen.
 
 ```html
 <style>
@@ -271,71 +247,17 @@ Gib anschließend den Überschriften passende Farben
 </style>
 ```
 
----
+--- 
 
-## Auftrag 2 [b]
+## Variablen [2]
 
-- Ändere für das gesamte Dokument die Schriftart.
-- Gib dem Hintergrund eine deiner ausgewählten Farben.
-- Entferne das padding und margin vom body.
+Um diese Variablen dann nutzen zu können muss folgendes geschrieben werden:
 
 ```html
 <style>
-  body {
-    font-family: NAME_DEINER_AUSGWÄHLTEN_SCHRIFTART;
-    background-color: var(--background);
-    padding: 0;
-    margin: 0;
+    body {
+        color: var(--text);
+        background-color: var(--background);
   }
 </style>
 ```
-
----
-
-## Auftrag 2 [c]
-
-Gib jedem zweiten Abschnitt (Überschrift + Weiteres Element) die gleiche Hintergrundfarbe und gib den Abschnitten etwas ``padding``.
-
-```html
-<style>
-  .content {
-    padding: 5rem;
-  }
-</style>
-```
-
-```html
-<div class="content" style="background-color: FARBE">
-  <h2>Ich bin eine Überschrift</h2>
-  <p>Ich bin ein Absatz</p>
-</div>
-```
-
----
-
-## Auftrag 2 [d]
-
-- Füge im Abschnitt `Zutaten` das Bild wieder ein.
-- Stelle sicher, dass das Bild abhängig von der Fenstergröße entweder neben oder unter der Liste mit den Zutaten angezeigt wird.
-- Tipp: Folie 11
-- Passe außerdem die Abstände zwischen den Elementen an, damit Text und Bild nicht mehr ganz am Rand erscheinen und zwischen Bild und Text ein Abstand existiert.
-
----
-
-## Auftrag 2 [e]
-
-Füge ein fixiertes Menü für die einzelnen Überschriften ein.
-
-- Wenn du auf eine der Überschriften im Menü clickst solltest du direkt zum jeweiligen Abschnitt hüpfen.
-  Tipp: Verwende dazu das `<a>` Element.
-- Orientieren dich gegebenenfalls an diesem [Tutorial](https://www.w3schools.com/howto/howto_css_fixed_menu.asp).
-
----
-
-## Zusatzauftrag
-
-Stöbere in den Templates von
-<https://www.free-css.com/free-css-templates>
-und such dir eines davon aus.
-
-Notiere dir, was dir an diesem Template so gut gefällt.
