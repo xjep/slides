@@ -49,21 +49,34 @@ Wenn die Geschichte KI generiert ist, muss dies angegeben werden. Es darf auch e
 
 ## CSS Teil
 
-- Ändere für das gesamte Dokument die Schriftart.
-- Gib dem Hintergrund eine deiner ausgewählten Farben.
-- Entferne das padding und margin vom body.
-- Gib anschließend den Überschriften passende Farben
+Zu Beginn legen wir eine Farbpalette fest. Die Farben sollen selbst gewählt werden. [Diese Seite](https://www.realtimecolors.com/) ist dazu hilfreich.
 
 ```html
 <style>
-    body {
-        font-family: NAME_DEINER_AUSGWÄHLTEN_SCHRIFTART;
-        background-color: var(--background);
-        padding: 0;
-        margin: 0;
+  :root {
+    --text: rgb(255, 255, 255);
+    --heading: rgba(88, 77, 77);
+    --backgroundGerman: rgb(11, 14, 23);;
+    --backgroundEnglish: rgb(144, 158, 208);
+
+    /* Es können gerne mehr als 4 Farben erstellt werden */
   }
 </style>
 ```
+
+
+---
+
+### Body
+
+- Ändere für das gesamte Dokument die Schriftart. [Tipp](https://www.cdnfonts.com/)
+- Setze eine deiner Farben als Hintergrundfarbe fest.
+- Setze eine deiner Farben als Textfarbe fest.
+- Entferne das margin vom body.
+
+### Headings
+
+Gib den Überschriften eine andere Farbe als die eben festgelegte Textfarbe.
 
 ---
 
@@ -80,9 +93,9 @@ Gib jedem zweiten Abschnitt (Überschrift + Weiteres Element) die gleiche Hinter
 ```
 
 ```html
-<div class="content" style="background-color: FARBE">
-  <h2>Ich bin eine Überschrift</h2>
-  <p>Ich bin ein Absatz</p>
+<div class="content" style="background-color: --backgroundEnglish">
+  <h2>I am a heading</h2>
+  <p>I am a paragraph</p>
 </div>
 ```
 
@@ -90,7 +103,7 @@ Gib jedem zweiten Abschnitt (Überschrift + Weiteres Element) die gleiche Hinter
 
 ### Responsive Design
 
-- Stelle sicher, dass sich das Bild abhängig von der Fenstergröße entweder neben oder unter dem Text befindet.
+- Stelle sicher, dass sich das Bild abhängig von der Fenstergröße entweder neben oder unter dem Text befindet. (Hier brauchst du z.B. eine Flex Box)
 - Passe außerdem die Abstände zwischen den Elementen an, damit Text und Bild nicht mehr ganz am Rand erscheinen und zwischen Bild und Text ein Abstand existiert.
 
 ---
