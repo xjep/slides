@@ -101,6 +101,10 @@ Gib jedem zweiten Abschnitt (Überschrift + Weiteres Element) die gleiche Hinter
 
 ---
 
+### Wellen zwischen den Abschnitten
+
+[Siehe dazu](using_haikei_waves.html)
+
 ### Responsive Design
 
 - Stelle sicher, dass sich das Bild abhängig von der Fenstergröße entweder neben oder unter dem Text befindet. (Hier brauchst du z.B. eine Flex Box)
