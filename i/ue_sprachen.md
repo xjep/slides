@@ -39,9 +39,11 @@ Baue danach den Body wie folgt auf. (Als Beispiel wurde hier Englisch und Deutsc
 - Abschnitt (`div`)
   - Überschriftsebene 2: Kurze Geschichte in Deutsch
   - Eine Kurze Geschichte mit mehrere Paragraphen in Deutsch
+  - Ein Bild, welches zur Geschichte dazu passt
 - Abschnitt (`div`)
   - Überschriftsebene 2: Kurze Geschichte in Deutsch
   - Eine Kurze Geschichte mit mehrere Paragraphen in Deutsch
+  - Ein Bild, welches zur Geschichte dazu passt.
 
 Wenn die Geschichte KI generiert ist, muss dies angegeben werden. Es darf auch eine Übersetzungssoftware verwendet werden. Wichtig ist, dass die Geschichte in einfacher Sprache geschrieben ist.
 
@@ -107,7 +109,8 @@ Gib jedem zweiten Abschnitt (Überschrift + Weiteres Element) die gleiche Hinter
 
 ### Responsive Design
 
-- Stelle sicher, dass sich das Bild abhängig von der Fenstergröße entweder neben oder unter dem Text befindet. (Hier brauchst du z.B. eine Flex Box)
+- Die Bilder sollen sich an der Fensterbreite anpassen.
+- Stelle außerdem sicher, dass sich die Bilder abhängig von der Fenstergröße entweder neben oder unter dem Text befinden. (Hier brauchst du z.B. eine Flex Box)
 - Passe außerdem die Abstände zwischen den Elementen an, damit Text und Bild nicht mehr ganz am Rand erscheinen und zwischen Bild und Text ein Abstand existiert.
 
 ---
