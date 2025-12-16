@@ -221,16 +221,6 @@ Es wäre doch praktisch, wenn sich die Bildgröße abhängig von der Fensterbrei
 
 ---
 
-## Zusatzauftrag
-
-Stöbere in den Templates von
-<https://www.free-css.com/free-css-templates>
-und such dir eines davon aus.
-
-Notiere dir, was dir an diesem Template so gut gefällt.
-
----
-
 ## Variablen [1]
 
 In CSS können Variablen deklariert werden um beispielsweise eine Farbpalette nutzen zu können. [Diese Seite](https://www.realtimecolors.com/) kann dabei helfen.
@@ -261,3 +251,16 @@ Um diese Variablen dann nutzen zu können muss folgendes geschrieben werden:
   }
 </style>
 ```
+
+---
+
+## Nützliche Links
+
+- <https://www.free-css.com/free-css-templates>
+- <https://www.realtimecolors.com/>
+- <https://www.cdnfonts.com/>
+- <https://yqnn.github.io/svg-path-editor/>
+
+
+
+  
