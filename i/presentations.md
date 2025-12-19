@@ -24,7 +24,7 @@ Informatik 9. Schulstufe
 
 ---
 
-## 1. Vorstellung JIM Studie (1P)
+## 1. Vorstellung JIM Studie
 
 - Wer ist der Urheber der Studie?
 - Was wird bei dieser Studie abgefragt?
@@ -35,7 +35,7 @@ Dieses Thema lebt davon, sich intensiv mit den Statistiken der unterschiedlichen
 
 ---
 
-## 2. Finanzierung von "gratis" Software (1P)
+## 2. Finanzierung von "gratis" Software
 
 - Wie finanzieren sich Free2Play Spiele?
 - Was bedeutet Pay2Win?
@@ -45,7 +45,7 @@ Dieses Thema lebt davon, sich intensiv mit den Statistiken der unterschiedlichen
 
 ---
 
-## 3. Datenschutz & Datensicherheit (1P)
+## 3. Datenschutz & Datensicherheit
 
 - Was versteht man unter Phishing?
 - Worauf sollte man bei Phishing Mails achten?
@@ -55,7 +55,7 @@ Dieses Thema lebt davon, sich intensiv mit den Statistiken der unterschiedlichen
 
 ---
 
-## 4. Urheberrecht (2P)
+## 4. Urheberrecht
 
 - Worum handelt es sich beim Urheberrecht?
 - Gilt weltweit das gleiche Urheberrecht? Vergleiche die USA mit Europa!
@@ -65,7 +65,7 @@ Dieses Thema lebt davon, sich intensiv mit den Statistiken der unterschiedlichen
 
 ---
 
-## 5. Geschichte (2P)
+## 5. Geschichte
 
 - Gib einen Überblick über die Entwicklung der Informatik.
 - Der Schwerpunkt der Präsentation soll auf 2 Themen, die in [diesem Video](https://www.youtube.com/watch?v=EA8tj1BT5X8)  angesprochen wurden gelegt werden:
@@ -76,7 +76,7 @@ Dieses Thema lebt davon, sich intensiv mit den Statistiken der unterschiedlichen
 
 ---
 
-## 6. Aufbau von Digitalen Endgeräten (2P)
+## 6. Hardware
 
 - Aus welchen Bauteilen besteht ein digitales Endgerät?
 - Beschreibe die Bauteile und gehe ein wenig auf die aktuellen Entwicklungen ein!
@@ -87,7 +87,7 @@ Dieses Thema lebt davon, sich intensiv mit den Statistiken der unterschiedlichen
 
 ---
 
-## 7. Open Source Software (2P)
+## 7. Open Source Software
 
 - Gib die Definition von OSS wieder und erkläre was darunter gemeint ist!
 - Welche Vor- und Nachteile lassen sich daraus gegenüber Closed Source Software ableiten?
@@ -97,7 +97,7 @@ Dieses Thema lebt davon, sich intensiv mit den Statistiken der unterschiedlichen
 
 ---
 
-## 8. Betriebssysteme (2P)
+## 8. Betriebssysteme
 
 - Was ist ein Betriebssystem?
 - Nenne ein paar Beispiele von Betriebssystemen!
