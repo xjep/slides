@@ -72,7 +72,7 @@ Zu Beginn legen wir eine Farbpalette fest. Die Farben sollen selbst gewählt wer
 ### Body
 
 - Ändere für das gesamte Dokument die Schriftart. [Tipp](https://www.cdnfonts.com/)
-- Setze eine deiner Farben als Hintergrundfarbe fest.
+- Setze eine deiner Farben als Hintergrundfarbe fest. [Tipp](css_grundlagen.html#2)
 - Setze eine deiner Farben als Textfarbe fest.
 - Entferne das margin vom body.
 
@@ -95,7 +95,7 @@ Gib jedem zweiten Abschnitt (Überschrift + Weiteres Element) die gleiche Hinter
 ```
 
 ```html
-<div class="content" style="background-color: --backgroundEnglish">
+<div class="content" style="background-color: var(--backgroundEnglish)">
   <h2>I am a heading</h2>
   <p>I am a paragraph</p>
 </div>
@@ -110,8 +110,8 @@ Gib jedem zweiten Abschnitt (Überschrift + Weiteres Element) die gleiche Hinter
 ### Responsive Design
 
 - Die Bilder sollen sich an der Fensterbreite anpassen.
-- Stelle außerdem sicher, dass sich die Bilder abhängig von der Fenstergröße entweder neben oder unter dem Text befinden. (Hier brauchst du z.B. eine Flex Box)
-- Passe außerdem die Abstände zwischen den Elementen an, damit Text und Bild nicht mehr ganz am Rand erscheinen und zwischen Bild und Text ein Abstand existiert.
+- Stelle außerdem sicher, dass sich die Bilder abhängig von der Fenstergröße entweder neben oder unter dem Text befinden. (Hier brauchst du z.B. eine [Flex Box](css_grundlagen.html#11))
+- Passe außerdem die [Abstände](css_grundlagen.html#11) zwischen den Elementen an, damit Text und Bild nicht mehr ganz am Rand erscheinen und zwischen Bild und Text ein Abstand existiert.
 
 ---
 
