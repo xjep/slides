@@ -57,9 +57,9 @@ Zu Beginn legen wir eine Farbpalette fest. Die Farben sollen selbst gewählt wer
 <style>
   :root {
     --text: rgb(255, 255, 255);
-    --heading: rgba(88, 77, 77);
-    --backgroundGerman: rgb(11, 14, 23);;
-    --backgroundEnglish: rgb(144, 158, 208);
+    --heading: rgb(255, 255, 255);
+    --backgroundGerman: rgb(255, 255, 255);
+    --backgroundEnglish: rgb(255, 255, 255);
 
     /* Es können gerne mehr als 4 Farben erstellt werden */
   }
