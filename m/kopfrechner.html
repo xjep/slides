@@ -63,7 +63,7 @@
       background: var(--buttonHover);
     }
 
-    select:hover:not([disabled]){
+    select:hover:not([disabled]) {
       cursor: pointer;
     }
 
@@ -101,7 +101,20 @@
     </select>
   </div>
 
-  <div id="scoreboard">Score: 0</div>
+        <div
+          id="scoreboard-container"
+          style="
+            display: flex;
+            align-items: center;
+            gap: 0px;
+            font-size: 20px;
+            margin: 0px;
+            font-weight: bold;
+          "
+        >
+          <div id="playerName">Player</div>
+          <div id="scoreboard">Score: 0</div>
+        </div>
   <div class="task" id="task"></div>
   <input type="text" id="userInput" placeholder="Hier eingeben"><br>
   <button id="btn" onclick="trainer.clickBtn()">Abschicken</button>
@@ -110,6 +123,18 @@
 
 
   <script>
+    let playerName = "";
+    let score = 0;
+
+    function askPlayerName() {
+      playerName = prompt("Bitte gib deinen Namen ein:", "");
+      if (!playerName) playerName = "Player";
+      document.getElementById("playerName").textContent = playerName + "'s";
+    }
+
+    askPlayerName();
+
+
     const styles = getComputedStyle(document.documentElement);
     const myColor = {};
     for (let i = 0; i < styles.length; i++) {
