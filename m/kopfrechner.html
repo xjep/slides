@@ -52,12 +52,19 @@
       color: var(--textDark);
       border: none;
       border-radius: 5px;
+    }
+
+    button {
       cursor: pointer;
     }
 
     button:hover:not([disabled]),
-    select:hover {
+    select:hover:not([disabled]) {
       background: var(--buttonHover);
+    }
+
+    select:hover:not([disabled]){
+      cursor: pointer;
     }
 
     #scoreboard {
@@ -251,13 +258,14 @@
         userInput.value = "";
         feedback.textContent = "";
         solutionDiv.textContent = "";
-        btn.style.opacity = "1";
+        // btn.style.opacity = "1";
 
         userInput.classList.remove("correct", "wrong");
         this.submitted = 0;
         btn.textContent = "Abschicken";
         const dropDownMenu = document.getElementById("difficulty");
         dropDownMenu.disabled = true;
+        dropDownMenu.style.opacity = "0.3";
       },
       clickBtn() {
         if (this.submitted) {
@@ -269,7 +277,7 @@
           const solutionDiv = document.getElementById("solution");
           const btn = document.getElementById("btn");
           const settings = DIFFICULTY_SETTINGS[this.difficulty];
-          btn.style.opacity = "0.6";
+          // btn.style.opacity = "0.6";
 
           userInput.classList.remove("correct", "wrong");
 
@@ -293,6 +301,7 @@
           btn.textContent = "Nächste Aufgabe";
           const dropDownMenu = document.getElementById("difficulty");
           dropDownMenu.disabled = false;
+          dropDownMenu.style.opacity = "1";
         }
       }
     }
@@ -306,6 +315,8 @@
       trainer.nextExercise();
       const dropDownMenu = document.getElementById("difficulty");
       dropDownMenu.disabled = false;
+      dropDownMenu.style.opacity = "1";
+      // btn.style.opacity = "1";
     };
 
   </script>
