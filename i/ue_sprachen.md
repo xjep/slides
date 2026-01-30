@@ -26,7 +26,7 @@ Baue danach den Body wie folgt auf. (Als Beispiel wurde hier Englisch und Deutsc
 
 - Abschnitt (`div`)
   - Überschriftsebene 2: Die Zahlen in Englisch
-  - Geordnete Liste mit den ersten 15 Zahlen in Deutsch
+  - Geordnete Liste mit den ersten 15 Zahlen in Englisch
 - Abschnitt (`div`)
   - Überschriftsebene 2: Wichtige Redewendungen in Deutsch
   - Ungeordnete Liste mit wichtigen Redewendungen (z.B. "Wie geht es dir")
@@ -41,8 +41,8 @@ Baue danach den Body wie folgt auf. (Als Beispiel wurde hier Englisch und Deutsc
   - Eine Kurze Geschichte mit mehrere Paragraphen in Deutsch
   - Ein Bild, welches zur Geschichte dazu passt
 - Abschnitt (`div`)
-  - Überschriftsebene 2: Kurze Geschichte in Deutsch
-  - Eine Kurze Geschichte mit mehrere Paragraphen in Deutsch
+  - Überschriftsebene 2: Kurze Geschichte in Englisch
+  - Eine Kurze Geschichte mit mehrere Paragraphen in Englisch
   - Ein Bild, welches zur Geschichte dazu passt.
 
 Wenn die Geschichte KI generiert ist, muss dies angegeben werden. Es darf auch eine Übersetzungssoftware verwendet werden. Wichtig ist, dass die Geschichte in einfacher Sprache geschrieben ist.
