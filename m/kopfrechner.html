@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>🧮 Kopfrechner</title>
+  <style>
+    :root {
+      --text: black;
+      --textDark: white;
+      --background: #f8f9fa;
+      --boxBorder: #ccc;
+      --correct: green;
+      --wrong: red;
+      --solution: #444;
+      --buttonHover: #0056b3;
+      --button: #007bff;
+    }
+
+    body {
+      font-family: sans-serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      background: var(--background);
+      padding: 30px;
+    }
+
+    .task {
+      padding-top: 10px;
+      padding-bottom: 10px;
+      line-height: 1;
+    }
+
+    input {
+      margin: 4px;
+      text-align: center;
+      padding: 5px;
+      font-size: 16px;
+      width: 120px;
+      border: 2px solid var(--boxBorder);
+      border-radius: 4px;
+      transition: background-color 0.3s, border-color 0.3s;
+    }
+
+    button,
+    select {
+      padding: 10px 20px;
+      font-size: 16px;
+      background: var(--button);
+      color: var(--textDark);
+      border: none;
+      border-radius: 5px;
+    }
+
+    button {
+      cursor: pointer;
+    }
+
+    button:hover:not([disabled]),
+    select:hover:not([disabled]) {
+      background: var(--buttonHover);
+    }
+
+    select:hover:not([disabled]) {
+      cursor: pointer;
+    }
+
+    #scoreboard {
+      font-size: 20px;
+      margin: 10px;
+      font-weight: bold;
+    }
+
+    #feedback {
+      font-size: 18px;
+      margin-top: 10px;
+      height: 24px;
+    }
+
+    #solution {
+      margin-top: 10px;
+      font-size: 16px;
+      color: var(--solution);
+    }
+  </style>
+</head>
+
+<body>
+
+  <h2>🧮 Kopfrechner</h2>
+  <p>Berechne das Ergebnis der folgenden Rechnung!</p>
+
+  <div>
+    <label for="difficulty">Schwierigkeitsgrad: </label>
+    <select id="difficulty">
+      <option value="easy" selected>Easy</option>
+      <option value="hard">Hard</option>
+      <option value="extreme">Extreme</option>
+    </select>
+  </div>
+
+        <div
+          id="scoreboard-container"
+          style="
+            display: flex;
+            align-items: center;
+            gap: 0px;
+            font-size: 20px;
+            margin: 0px;
+            font-weight: bold;
+          "
+        >
+          <div id="playerName">Player</div>
+          <div id="scoreboard">Score: 0</div>
+        </div>
+  <div class="task" id="task"></div>
+  <input type="text" id="userInput" placeholder="Hier eingeben"><br>
+  <button id="btn" onclick="trainer.clickBtn()">Abschicken</button>
+  <div id="feedback"></div>
+  <div id="solution"></div>
+
+
+  <script>
+    let playerName = "";
+    let score = 0;
+
+    function askPlayerName() {
+      playerName = prompt("Bitte gib deinen Namen ein:", "");
+      if (!playerName) playerName = "Player";
+      document.getElementById("playerName").textContent = playerName + "'s";
+    }
+
+    askPlayerName();
+
+
+    const styles = getComputedStyle(document.documentElement);
+    const myColor = {};
+    for (let i = 0; i < styles.length; i++) {
+      const prop = styles[i];
+      if (prop.startsWith('--')) {
+        myColor[prop.replace('--', '')] =
+          styles.getPropertyValue(prop).trim();
+      }
+    }
+
+    const DIFFICULTIES = {
+      EASY: "easy",
+      HARD: "hard",
+      EXTREME: "extreme"
+    };
+
+    const OPERATIONS = {
+      PLUS: "plus",
+      MINUS: "minus",
+      MULTI: "multi",
+      DIVIDE: "divide"
+    }
+
+    const OPERATOR_SYMBOLS = {
+      [OPERATIONS.PLUS]: "+",
+      [OPERATIONS.MINUS]: "-",
+      [OPERATIONS.MULTI]: "⋅",
+      [OPERATIONS.DIVIDE]: ":"
+    };
+
+    const DIFFICULTY_SETTINGS = {
+      [DIFFICULTIES.EASY]: { digits: 6, decimalPlaces: 0, reward: 5, penalty: 3, divisor: 2 },
+      [DIFFICULTIES.HARD]: { digits: 4, decimalPlaces: 3, reward: 15, penalty: 5, divisor: 2 },
+      [DIFFICULTIES.EXTREME]: { digits: 5, decimalPlaces: 3, reward: 20, penalty: 6, divisor: 3 }
+    };
+
+    function randomBigInt(digits) {
+      let result = BigInt(0);
+      for (let i = 0; i < digits; i++) {
+        const nextDigit = BigInt(Math.floor(Math.random() * 10));
+        result = result * 10n + nextDigit;
+      }
+      return result;
+    }
+
+    function randomNumber(digits) {
+      let result = 0;
+      for (let i = 0; i < digits; i++) {
+        const nextDigit = Math.floor(Math.random() * 10);
+        result = result * 10 + nextDigit;
+      }
+      return result;
+    }
+
+    function bigInt2NumberPlusMinus(bigint, settings) {
+      return (Number(bigint) / (10 ** settings.decimalPlaces));
+    }
+
+    function Number2String(number) {
+      return number.toLocaleString('de-DE', { useGrouping: false });
+    }
+
+    function parseGermanNumber(input) {
+      if (typeof input !== 'string') return -1;
+      const cleaned = input.trim().replace(/\s+/g, '');
+      const normalized = cleaned.replace(/\./g, '').replace(',', '.');
+      const number = parseFloat(normalized);
+      if (isNaN(number)) {
+        return -1;
+      }
+      return number;
+    }
+
+    const trainer = {
+      difficulty: DIFFICULTIES.EASY,
+      submitted: 0,
+      score: 0,
+      leftNumber: 0,
+      rightNumber: 0,
+      operator: OPERATIONS.PLUS,
+      solution: 0,
+
+      generateCalculation() {
+        const settings = DIFFICULTY_SETTINGS[this.difficulty];
+        const totalDigits = settings.digits - 1 + settings.decimalPlaces;
+        const decimalPlaces = settings.decimalPlaces;
+
+        const operatorValues = Object.values(OPERATIONS);
+        this.operator = operatorValues[Math.floor(Math.random() * operatorValues.length)];
+
+        if (this.operator === OPERATIONS.PLUS || this.operator === OPERATIONS.MINUS) {
+          const random1 = randomBigInt(totalDigits);
+          const random2 = randomBigInt(totalDigits);
+          const maximum = random1 > random2 ? random1 : random2;;
+          const minimum = random1 < random2 ? random1 : random2;;
+          this.rightNumber = bigInt2NumberPlusMinus(maximum - minimum, settings);
+          if (this.operator === OPERATIONS.PLUS) {
+            this.leftNumber = bigInt2NumberPlusMinus(minimum, settings);
+            this.solution = bigInt2NumberPlusMinus(maximum, settings);
+          }
+          else {
+            this.leftNumber = bigInt2NumberPlusMinus(maximum, settings);
+            this.solution = bigInt2NumberPlusMinus(minimum, settings);
+          }
+        }
+        else {
+          if (this.operator === OPERATIONS.MULTI) {
+            let temp1 = Math.floor(settings.decimalPlaces / 2);
+            let temp2 = Math.ceil(settings.decimalPlaces / 2);
+            if (Math.random() < 0.5) {
+              const temp3 = temp1;
+              temp1 = temp2;
+              temp2 = temp3;
+            }
+            let random1 = randomBigInt(Math.floor((settings.digits + settings.decimalPlaces) / 2)) * (10n ** BigInt(temp1));
+            let random2 = randomBigInt(Math.ceil((settings.digits + settings.decimalPlaces) / 2)) * (10n ** BigInt(temp2));
+            if (Math.random() < 0.5) {
+              const random3 = random1;
+              random1 = random2;
+              random2 = random3;
+            }
+            this.leftNumber = Number(random1) / (10 ** settings.decimalPlaces);
+            this.rightNumber = Number(random2) / (10 ** settings.decimalPlaces);
+            this.solution = Number(random1 * random2) / 10 ** (2 * settings.decimalPlaces);
+          }
+          else {
+            const random2 = randomBigInt(settings.divisor);
+            this.rightNumber = Number(random2);
+            const random3 = randomBigInt(settings.digits + settings.decimalPlaces - settings.divisor);
+            const random1 = random3 * random2;
+            this.leftNumber = Number(random1) / 10 ** (settings.decimalPlaces);
+            this.solution = Number(random3) / 10 ** (settings.decimalPlaces);
+          }
+        }
+      },
+
+      nextExercise() {
+        this.generateCalculation()
+        const task = document.getElementById("task");
+        const userInput = document.getElementById("userInput");
+        const feedback = document.getElementById("feedback");
+        const solutionDiv = document.getElementById("solution");
+        const btn = document.getElementById("btn");
+
+        task.textContent = Number2String(this.leftNumber) + " " + OPERATOR_SYMBOLS[this.operator] + " " + Number2String(this.rightNumber) + " = ?";
+        userInput.value = "";
+        feedback.textContent = "";
+        solutionDiv.textContent = "";
+        // btn.style.opacity = "1";
+
+        userInput.classList.remove("correct", "wrong");
+        this.submitted = 0;
+        btn.textContent = "Abschicken";
+        const dropDownMenu = document.getElementById("difficulty");
+        dropDownMenu.disabled = true;
+        dropDownMenu.style.opacity = "0.3";
+      },
+      clickBtn() {
+        if (this.submitted) {
+          this.nextExercise();
+        }
+        else {
+          const userInput = document.getElementById("userInput");
+          const feedback = document.getElementById("feedback");
+          const solutionDiv = document.getElementById("solution");
+          const btn = document.getElementById("btn");
+          const settings = DIFFICULTY_SETTINGS[this.difficulty];
+          // btn.style.opacity = "0.6";
+
+          userInput.classList.remove("correct", "wrong");
+
+          let points = 0;
+          if (parseGermanNumber(userInput.value) === this.solution) {
+            points = settings.reward;
+            feedback.textContent = `✅ Gut gemacht +${points} Punkte`;
+            feedback.style.color = myColor.correct;
+          } else {
+            points = -settings.penalty;
+            feedback.textContent = `❌ Leider falsch -${Math.abs(points)} Punkte`;
+            feedback.style.color = myColor.wrong;
+          }
+
+          this.score += points;
+          document.getElementById("scoreboard").textContent = `Score: ${this.score}`;
+          document.getElementById("scoreboard").style.color = points > 0 ? myColor.correct : points < 0 ? myColor.wrong : myColor.text, setTimeout(() => document.getElementById("scoreboard").style.color = myColor.text, 1500);
+
+          solutionDiv.textContent = `Richtig: ${Number2String(this.solution)}`;
+          this.submitted = 1;
+          btn.textContent = "Nächste Aufgabe";
+          const dropDownMenu = document.getElementById("difficulty");
+          dropDownMenu.disabled = false;
+          dropDownMenu.style.opacity = "1";
+        }
+      }
+    }
+
+    document.getElementById("difficulty").addEventListener("change", (e) => {
+      trainer.difficulty = e.target.value;
+      trainer.nextExercise();
+    });
+
+    window.onload = () => {
+      trainer.nextExercise();
+      const dropDownMenu = document.getElementById("difficulty");
+      dropDownMenu.disabled = false;
+      dropDownMenu.style.opacity = "1";
+      // btn.style.opacity = "1";
+    };
+
+  </script>
+
+</body>
+
+</html>
