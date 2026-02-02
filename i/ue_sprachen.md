@@ -74,7 +74,7 @@ Zu Beginn legen wir eine Farbpalette fest. Die Farben sollen selbst gewählt wer
 - Ändere für das gesamte Dokument die Schriftart. [Tipp](https://www.cdnfonts.com/)
 - Setze eine deiner Farben als Hintergrundfarbe fest. [Tipp](css_grundlagen.html#2)
 - Setze eine deiner Farben als Textfarbe fest.
-- Entferne das margin vom body.
+- Entferne das margin vom body. (Null setzen)
 
 ### Headings
 
@@ -86,32 +86,17 @@ Gib den Überschriften eine andere Farbe als die eben festgelegte Textfarbe.
 
 Gib jedem zweiten Abschnitt (Überschrift + Weiteres Element) die gleiche Hintergrundfarbe und gib den Abschnitten etwas ``padding``.
 
+Tipp:
 ```html
 <style>
   .content {
     padding: 5rem;
   }
+  .content:nth-of-type(even) {
+    /* Überlege selbst was hier hineingehört */
+}
 </style>
 ```
-
-```html
-<div class="content" style="background-color: var(--backgroundEnglish)">
-  <h2>I am a heading</h2>
-  <p>I am a paragraph</p>
-</div>
-```
-
----
-
-### Wellen zwischen den Abschnitten
-
-[Siehe dazu](using_haikei_waves.html)
-
-### Responsive Design
-
-- Die Bilder sollen sich an der Fensterbreite anpassen.
-- Stelle außerdem sicher, dass sich die Bilder abhängig von der Fenstergröße entweder neben oder unter dem Text befinden. (Hier brauchst du z.B. eine [Flex Box](css_grundlagen.html#11))
-- Passe außerdem die [Abstände](css_grundlagen.html#11) zwischen den Elementen an, damit Text und Bild nicht mehr ganz am Rand erscheinen und zwischen Bild und Text ein Abstand existiert.
 
 ---
 
@@ -123,3 +108,14 @@ Füge ein fixiertes Menü für die einzelnen Überschriften ein.
   Tipp: Verwende dazu das `<a>` Element.
 - Orientieren dich gegebenenfalls an diesem [Tutorial](https://www.w3schools.com/howto/howto_css_fixed_menu.asp).
 
+---
+
+### Wellen zwischen den Abschnitten (Bonus)
+
+[Siehe dazu](using_haikei_waves.html)
+
+### Responsive Design (Bonus)
+
+- Die Bilder sollen sich an der Fensterbreite anpassen.
+- Stelle außerdem sicher, dass sich die Bilder abhängig von der Fenstergröße entweder neben oder unter dem Text befinden. (Hier brauchst du z.B. eine [Flex Box](css_grundlagen.html#11))
+- Passe außerdem die [Abstände](css_grundlagen.html#11) zwischen den Elementen an, damit Text und Bild nicht mehr ganz am Rand erscheinen und zwischen Bild und Text ein Abstand existiert.
