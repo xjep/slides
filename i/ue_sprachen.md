@@ -104,9 +104,10 @@ Tipp:
 
 Füge ein fixiertes Menü für die einzelnen Überschriften ein.
 
-- Wenn du auf eine der Überschriften im Menü clickst solltest du direkt zum jeweiligen Abschnitt hüpfen.
+- Wenn du auf eine der Überschriften im Menü klickst solltest du direkt zum jeweiligen Abschnitt hüpfen.
   Tipp: Verwende dazu das `<a>` Element.
 - Orientieren dich gegebenenfalls an diesem [Tutorial](https://www.w3schools.com/howto/howto_css_fixed_menu.asp).
+- Verwende außerdem `scroll-margin-top` zur Feinabstimmung.
 
 ---
 
