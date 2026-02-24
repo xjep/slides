@@ -72,7 +72,7 @@ Zu Beginn legen wir eine Farbpalette fest. Die Farben sollen selbst gewählt wer
 ### Body
 
 - Ändere für das gesamte Dokument die Schriftart. [Tipp](https://www.cdnfonts.com/)
-- Setze eine deiner Farben als Hintergrundfarbe fest. [Tipp](css_grundlagen.html#2)
+- Setze eine deiner Farben als Hintergrundfarbe fest. [Tipp](css_grundlagen.html#12)
 - Setze eine deiner Farben als Textfarbe fest.
 - Entferne das margin vom body. (Null setzen)
 
