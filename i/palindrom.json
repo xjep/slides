@@ -1,0 +1,46 @@
+{
+  "program": [],
+  "tape": {
+    "blank_symbol": "_",
+    "offset": 0,
+    "cursor": 0,
+    "data": [
+      "_",
+      "a",
+      "b",
+      "a"
+    ],
+    "history": [
+      []
+    ],
+    "history_size": 0
+  },
+  "final_states": [
+    "palin",
+    "noPalin"
+  ],
+  "initial_state": "Start",
+  "initial_tape": {
+    "blank_symbol": "_",
+    "offset": 0,
+    "cursor": 0,
+    "data": [
+      "_",
+      "a",
+      "b",
+      "a"
+    ],
+    "history": [
+      []
+    ],
+    "history_size": 0
+  },
+  "state_history": [
+    "Start"
+  ],
+  "name": "",
+  "created": "",
+  "step": 0,
+  "speed": 1992,
+  "animations": false
+}
