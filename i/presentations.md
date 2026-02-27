@@ -20,7 +20,8 @@ Informatik 9. Schulstufe
 - Kurzes Handout
 - Pro Person 3 geschlossene Fragen zum Thema
 - Die folgenden Bulletpoints stellen einen Grundstock dar. Für eine lehrreiche und informative Vorstellung des Themas bedarf es weiterer Vertiefung in die Thematiken.
-- Die Verwendung von KI ist verboten!
+- Quellen müssen angegeben werden!
+- Die Verwendung von KI als Quelle ist verboten!
 
 ---
 
