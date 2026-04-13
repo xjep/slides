@@ -140,7 +140,7 @@ Ein Spiel wie "Cookie Clicker"
 
 ![bg right fit](images/scratch/endbildschirmHai.png)
 
-- Beim Hai muss zuerst das gleich wie bei Fisch und Taucher eingefügt werden.
+- Beim Hai muss zuerst das gleiche wie bei Fisch und Taucher eingefügt werden.
 - Danach muss noch der "Wenn Flagge angeklickt wird" Block durch den "Wenn ich Programmstart empfange" ausgetauscht werden.
 
 ---
