@@ -7,9 +7,37 @@ backgroundColor: #fff
 backgroundImage: url('https://marp.app/assets/hero-background.svg')
 ---
 
+<style>
+
+.tai-layout {
+  display: flex;
+  gap: 2rem;
+  width: 100%;
+}
+
+.tai-text {
+  flex: 1;
+}
+
+.tai-image {
+  flex: 0 0 63%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.tai-image img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+</style>
+
 # Theory
 
 Informatik 9. Schulstufe
+
+---
 
 ## Themen
 
@@ -71,20 +99,19 @@ FIM: Familie Interaktion Medien
 
 #### JIM Studie 2025
 
-<div style="display:flex; gap:2rem; width:100%; align-items:center;">
+<div class="tai-layout">
 
-<div style="flex:1;">
+<div class="tai-text">
 
-- **Stichprobe:** 1200 Jugendliche (12-19) aus Deutschland
-- **Versuchszeitraum:** 02.06 - 12.07.2025
-- **Methodik:** Telefon und Online Interviews
+- **Stichprobe:** 1200 Jugendliche (12-19) aus Deutschland  
+- **Versuchszeitraum:** 02.06 - 12.07.2025  
+- **Methodik:** Telefon und Online Interviews  
 
 </div>
 
-<div style="flex:0 0 63%; display:flex; align-items:center; justify-content:flex-end;">
+<div class="tai-image">
 
-<img src="images/JIM/2025_Soziodemografie.jpg"
-     style="width:100%; height:auto; display:block;" />
+<img src="images/JIM/2025_Soziodemografie.jpg" />
 
 </div>
 
@@ -92,6 +119,74 @@ FIM: Familie Interaktion Medien
 
 <!--
 _footer: Quelle: https://mpfs.de/app/uploads/2025/11/JIM_2025_PDF_barrierearm.pdf (S. 4)
+-->
+
+---
+
+<style scoped>
+section img {
+  max-height: 510px;
+  display: block;
+  margin: 0 auto;
+}
+</style>
+
+
+<style scoped>
+  section {
+    padding-right: 0px;
+  }
+</style>
+
+#### Durchschnittliche tägliche Bildschirmzeit am Smartphone
+
+</br>
+
+<div class="tai-layout">
+
+<div class="tai-text">
+
+- Angaben in Minuten
+- 960 Befragte
+
+</div>
+
+<div class="tai-image" style="flex: 0 0 71%">
+
+<img src="images/JIM/2025_Bildschirmzeit.jpg" />
+
+</div>
+
+</div>
+
+<!--
+_footer: Quelle: https://mpfs.de/app/uploads/2025/11/JIM_2025_PDF_barrierearm.pdf (S. 25)
+-->
+
+<!-- Auch die Erhebung der Bildschirmzeit bringt gewisse Einschränkungen mit sich. Nicht
+allen Jugendlichen ist die entsprechende Funktion bekannt und je nach Betriebssystem
+und Gerät kann sich die Funktionsweise leicht unterscheiden. Weitere Unschärfen bringt
+der Ablese-Zeitpunkt (Wochentag und Uhrzeit zur Durchschnittsberechnung). Mit fort-
+schreitender Woche reduziert sich der Einfluss dieser Verzerrung zwar, insgesamt wird die
+tatsächliche Bildschirmzeit durch den angezeigten Wert jedoch tendenziell unterschätzt. -->
+
+---
+
+<style scoped>
+section img {
+  max-height: 510px;
+  display: block;
+  margin: 0 auto;
+}
+</style>
+
+
+#### Entwicklung tägliche Onlinenutzung 2014 – 2024
+
+![alt text](images/JIM/2024_Onlinenutzung.jpg)
+
+<!--
+_footer: Quelle: https://mpfs.de/app/uploads/2024/11/JIM_2024_PDF_barrierearm.pdf (S. 24)
 -->
 
 ---
