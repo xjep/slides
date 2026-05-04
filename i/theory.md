@@ -7,24 +7,9 @@ backgroundColor: #fff
 backgroundImage: url('https://marp.app/assets/hero-background.svg')
 ---
 
-<style>
-  img[alt~="rightbound"] {
-    margin-top: -105px;
-    height: 720px;
-    margin-right: -70px;
-  }
- section::after {
-
-width: 100%;
-
-} 
-</style>
-
 # Theory
 
 Informatik 9. Schulstufe
-
----
 
 ## Themen
 
@@ -78,20 +63,36 @@ FIM: Familie Interaktion Medien
 
 ---
 
-# JIM Studie 2025
+<style scoped>
+  section {
+    padding-right: 0px;
+  }
+</style>
+
+#### JIM Studie 2025
+
+<div style="display:flex; gap:2rem; width:100%; align-items:center;">
+
+<div style="flex:1;">
 
 - **Stichprobe:** 1200 Jugendliche (12-19) aus Deutschland
 - **Versuchszeitraum:** 02.06 - 12.07.2025
 - **Methodik:** Telefon und Online Interviews
 
+</div>
 
-![bg fit right](images/JIM/2025_Soziodemografie.jpg)
+<div style="flex:0 0 63%; display:flex; align-items:center; justify-content:flex-end;">
 
+<img src="images/JIM/2025_Soziodemografie.jpg"
+     style="width:100%; height:auto; display:block;" />
+
+</div>
+
+</div>
 
 <!--
-footer: Quelle: https://mpfs.de/app/uploads/2025/11/JIM_2025_PDF_barrierearm.pdf
+_footer: Quelle: https://mpfs.de/app/uploads/2025/11/JIM_2025_PDF_barrierearm.pdf (S. 4)
 -->
-
 
 ---
 
