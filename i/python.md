@@ -24,7 +24,7 @@ Variablen, Funktionen, Operatoren und Verzweigungen
 Eine Variable speichert einen Wert.
 
 ```python
-name = "Emir"
+name = "John_Doe"
 alter = 15
 ```
 
@@ -158,7 +158,7 @@ sixseven = print(six + seven)
 
 six = int(six)
 seven = int(seven)
-thirteen = print(6 + 7)
+thirteen = print(six + seven)
 ```
 
 ---
