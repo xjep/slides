@@ -68,7 +68,7 @@ Das Programm soll folgende Fälle unterscheiden:
 
 ---
 
-### Beispiele
+#### Beispiele
 
 <div class="console">
 <span class="blue">x² + p x + q = 0</span>
@@ -98,7 +98,7 @@ In diesem Fall gibt es keine reelle Lösung!
 
 ---
 
-### Beispiele
+#### Beispiele
 
 <div class="console">
 <span class="blue">x² + p x + q = 0</span>
@@ -112,6 +112,9 @@ q = -1
 <span class="green">x₂ = -1</span>
 </div>
 
-### Hinweis
+#### Nützliche Funktionen
 
-Zum Runden einer Zahl kann folgender Befehl `round(ZAHL)` verwendet werden.
+| Funktion | Beschreibung |
+|---|---|
+| round(`ZAHL`,`ANZAHL STELLEN`) | Runden einer Zahl |
+| sqrt(`ZAHL`) | Bilden der Quadratwurzel einer Zahl |
