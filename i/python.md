@@ -5,6 +5,15 @@ _class: lead
 paginate: true
 backgroundColor: #fff
 backgroundImage: url('https://marp.app/assets/hero-background.svg')
+style: |
+  pre code .hljs-number {
+    color: #ffc400 !important;
+    font-weight: bold;
+  }
+# style: |
+#   pre {
+#     background: #3d4661;
+#   }
 ---
 
 <style>
@@ -13,7 +22,7 @@ pre code {
 }
 </style>
 
-# Python Grundlagen
+# Python Grundlagen **Teil 1**
 
 Variablen, Funktionen, Operatoren und Verzweigungen
 
@@ -301,6 +310,6 @@ name = "Hallo"  # richtig
 
 ```python
 x = 5      # Wert zuweisen
-x == 5     # vergleichen (würde True zurückgeben)
+x == 5     # vergleichen (würde True oder False zurückgeben)
 ```
 

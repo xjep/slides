@@ -19,41 +19,15 @@ style: |
 ---
 
 
-# Python Übungen
+# Quadratische Gleichungen lösen
 
-Schaltjahr ermitteln & Quadratische Gleichungen lösen
-
----
-
-## Übung 1: Schaltjahr ermitteln
-
-Schreibt ein Programm in Python, dass:
-
-1. nach einem Jahr fragt.
-2. überprüft, ob es ein Schaltjahr ist.
-3. das Ergebnis (`Schaltjahr`/`kein Schaltjahr`) ausgibt.
+Übung 4
 
 ---
 
-# Beispiele
+## Quadratische Gleichung lösen
 
-```text
-Sag mir ein Jahr: 2000
-
-Das eingegebene Jahr ist ein Schaltjahr.
-```
-
-```text
-Sag mir ein Jahr: 2001
-
-Das eingegebene Jahr ist kein Schaltjahr.
-```
-
----
-
-## Übung 2: Quadratische Gleichung lösen
-
-Schreibt ein Programm in Python, welches eine quadratische Gleichung der folgen Form löst:
+Schreibe ein Programm in Python, welches eine quadratische Gleichung der folgen Form löst:
 
 ```text
 x² + p x + q = 0
@@ -71,27 +45,26 @@ Das Programm soll folgende Fälle unterscheiden:
 #### Beispiele
 
 <div class="console">
-<span class="blue">x² + p x + q = 0</span>
+x² + p x + q = 0
 
 p = -2  
 q = 1
 
 <br>
 
-<span class="green">x = 1</span>
+x = 1
 </div>
 
 <br>
 
 <div class="console">
-<span class="blue">x² + p x + q = 0</span>
+x² + p x + q = 0
 
 p = 1  
 q = 2
 
-<span class="yellow">
 In diesem Fall gibt es keine reelle Lösung!
-</span>
+
 </div>
 
 </br>
@@ -101,15 +74,15 @@ In diesem Fall gibt es keine reelle Lösung!
 #### Beispiele
 
 <div class="console">
-<span class="blue">x² + p x + q = 0</span>
+x² + p x + q = 0
 
 p = 0  
 q = -1
 
 <br>
 
-<span class="green">x₁ = 1</span>  
-<span class="green">x₂ = -1</span>
+x₁ = 1
+x₂ = -1
 </div>
 
 #### Nützliche Funktionen
