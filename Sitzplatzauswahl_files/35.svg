@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="2px" height="104px" viewBox="0 0 2 104" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>00 Webcore Base/2. Icons/Graf_Res/Interieur Icons/35</title>
+    <g id="00-Webcore-Base/2.-Icons/Graf_Res/Interieur-Icons/35" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Zwischenwand-Durchgang-Mitte" fill="#B1B1B1">
+            <rect id="Rectangle" x="0" y="0" width="2" height="40"></rect>
+            <rect id="Rectangle" x="0" y="64" width="2" height="40"></rect>
+        </g>
+        <rect id="Rectangle" fill="#666666" x="0" y="0" width="2" height="2"></rect>
+        <rect id="Rectangle" fill="#666666" x="0" y="102" width="2" height="2"></rect>
+        <rect id="Rectangle" fill="#FFFFFF" x="-1" y="40" width="4" height="24"></rect>
+    </g>
+</svg>

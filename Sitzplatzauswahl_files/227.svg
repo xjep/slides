@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="50px" height="8px" viewBox="0 0 50 8" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>00 Webcore Base/2. Icons/Graf_Res/Interieur Icons/227</title>
+    <defs>
+        <filter id="filter-1">
+            <feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 0.400000 0 0 0 0 0.400000 0 0 0 0 0.400000 0 0 0 1.000000 0"></feColorMatrix>
+        </filter>
+        <filter id="filter-2">
+            <feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 0.400000 0 0 0 0 0.400000 0 0 0 0 0.400000 0 0 0 1.000000 0"></feColorMatrix>
+        </filter>
+        <filter id="filter-3">
+            <feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 0.400000 0 0 0 0 0.400000 0 0 0 0 0.400000 0 0 0 1.000000 0"></feColorMatrix>
+        </filter>
+        <filter id="filter-4">
+            <feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 0.400000 0 0 0 0 0.400000 0 0 0 0 0.400000 0 0 0 1.000000 0"></feColorMatrix>
+        </filter>
+        <filter id="filter-5">
+            <feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 0.400000 0 0 0 0 0.400000 0 0 0 0 0.400000 0 0 0 1.000000 0"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="00-Webcore-Base/2.-Icons/Graf_Res/Interieur-Icons/227" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g filter="url(#filter-1)" id="Group-2">
+            <g transform="translate(43.500000, 4.000000) rotate(-180.000000) translate(-43.500000, -4.000000) translate(42.000000, 0.000000)">
+                <path d="M1,0 L1,7 L3,7 L3,8 L0,8 L0,0 L1,0 Z" id="Combined-Shape" fill="#666666"></path>
+            </g>
+        </g>
+        <g filter="url(#filter-2)" id="Group">
+            <g transform="translate(34.250000, 4.000000) rotate(-180.000000) translate(-34.250000, -4.000000) translate(32.750000, 0.000000)">
+                <path d="M1,0 L1,7 L3,7 L3,8 L0,8 L0,0 L1,0 Z" id="Combined-Shape" fill="#666666"></path>
+            </g>
+        </g>
+        <g filter="url(#filter-3)" id="Group-3">
+            <g transform="translate(25.000000, 4.000000) rotate(-180.000000) translate(-25.000000, -4.000000) translate(23.500000, 0.000000)">
+                <path d="M1,0 L1,7 L3,7 L3,8 L0,8 L0,0 L1,0 Z" id="Combined-Shape" fill="#666666"></path>
+            </g>
+        </g>
+        <g filter="url(#filter-4)" id="Group-4">
+            <g transform="translate(15.750000, 4.000000) rotate(-180.000000) translate(-15.750000, -4.000000) translate(14.250000, 0.000000)">
+                <path d="M1,0 L1,7 L3,7 L3,8 L0,8 L0,0 L1,0 Z" id="Combined-Shape" fill="#666666"></path>
+            </g>
+        </g>
+        <g filter="url(#filter-5)" id="Group-5">
+            <g transform="translate(6.500000, 4.000000) rotate(-180.000000) translate(-6.500000, -4.000000) translate(5.000000, -0.000000)">
+                <path d="M1,0 L1,7 L3,7 L3,8 L0,8 L0,0 L1,0 Z" id="Combined-Shape" fill="#666666"></path>
+            </g>
+        </g>
+    </g>
+</svg>
