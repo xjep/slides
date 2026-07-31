@@ -1,0 +1,7 @@
+personalisiertes Suchen
+recherche zu gewissen Themen auf unterschiedlichen Medien herausfinden
+evtl. hier auch etwas zu parteimedien machen (ohne aber genau auf die Politik dahinter eingehen, einfach sagen, dass da unterschiedliche Parteien dahinter stehen.)
+
+vllt. auch Boulevard?
+
+hier nicht darauf eingehen, warum das Parteien/Medienhäuser machen (das kommt dann in der 4.)
