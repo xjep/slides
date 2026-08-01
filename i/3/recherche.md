@@ -5,3 +5,7 @@ evtl. hier auch etwas zu parteimedien machen (ohne aber genau auf die Politik da
 vllt. auch Boulevard?
 
 hier nicht darauf eingehen, warum das Parteien/Medienhäuser machen (das kommt dann in der 4.)
+
+etwas zu Scheinkorrelation machen?
+siehe dazu auch https://www.schubu.org/p812/daten-analysieren
+als Anhaltspunkt
