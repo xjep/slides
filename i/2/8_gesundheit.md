@@ -1,0 +1,1 @@
+zwischen digitalen Angeboten und eigenen Bedürfnissen abwägen und persönliche Handlungsmöglichkeiten unter Berücksichtigung gesundheitlicher und ökologischer Aspekte gestalten. AWB: Digitaler Arbeitsplatz; Nachhaltiger Umgang mit digitalen Technologien

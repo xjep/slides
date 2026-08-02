@@ -1,0 +1,1 @@
+Daten erfassen, filtern, sortieren, interpretieren und darstellen. AWB: Organisation von Daten; (Visuelle) Darstellung von Daten
