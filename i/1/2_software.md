@@ -7,3 +7,6 @@ backgroundColor: #fff
 backgroundImage: url('https://marp.app/assets/hero-background.svg')
 ---
 
+# Software
+
+Betriebssystem, Programme, Suchmaschinen
