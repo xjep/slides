@@ -15,7 +15,7 @@ section img {
 
 # Organisatorisches
 
-*Digitale Grundbildung 1. Klasse*
+*Digitale Grundbildung 2. Klasse*
 
 ---
 
