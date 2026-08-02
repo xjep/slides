@@ -6,3 +6,7 @@ paginate: true
 backgroundColor: #fff
 backgroundImage: url('https://marp.app/assets/hero-background.svg')
 ---
+
+# Word
+
+Formatvorlagen, Bildbeschreibungen & Strukturelemente
