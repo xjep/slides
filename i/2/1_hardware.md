@@ -28,3 +28,30 @@ Was funktioniert nicht?
 Wann tritt der Fehler auf?
 Welche Fehlermeldung erscheint?
 Welche Schritte wurden bereits ausprobiert?
+
+
+- Kabeltypen
+  - Video
+    - HDMI
+    - DP
+    - DVI
+    - VGA
+  - Audio
+    - AUX
+    - Cinch
+  - USB (Steckertypen)
+    - [x] USB-A
+    - [x] USB-C
+    - [x] USB-B
+    - [x] MINI USB B
+    - [x] MICRO USB B
+    - [ ] MINI USB A
+    - [ ] MICRO USB A
+  - USB (Technologie)
+    - [ ] USB-1
+    - [x] USB-2
+    - [x] USB-3 (+ Unterversionen)
+    - [x] USB-PD
+  - Lightning
+  - Netzwerk
+    - WIP
