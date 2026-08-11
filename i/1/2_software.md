@@ -9,7 +9,8 @@ backgroundImage: url('https://marp.app/assets/hero-background.svg')
 
 # Software
 
-Betriebssystem, Programme, Suchmaschinen
+Betriebssystem, Programme, Suchmaschinen (
+Die KI Zusammenfassungen von Google erwähnen)
 
 
 - Der Desktop

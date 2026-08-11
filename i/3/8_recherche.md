@@ -18,3 +18,5 @@ hier nicht darauf eingehen, warum das Parteien/Medienhäuser machen (das kommt d
 etwas zu Scheinkorrelation machen?
 siehe dazu auch https://www.schubu.org/p812/daten-analysieren
 als Anhaltspunkt
+
+Die KI Zusammenfassungen von Google erwähnen
