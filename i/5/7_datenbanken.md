@@ -1,1 +1,0 @@
-json+jq oder sql?
