@@ -7,3 +7,6 @@ Interessen und Bedingungen der Medienproduktion und der Veröffentlichung sowie 
 AWB: Veränderung des Einkaufsverhaltens, Onlinespiele (pay-to-win)
 
 evtl. hier auch Betrug im Internet und Phishing einbauen
+
+IKEA Werbung herzeigen
+https://youtu.be/2BXRGzjo1_Q
