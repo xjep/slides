@@ -19,7 +19,7 @@ header: / Hardware
 
 - Netzteil (intern/extern)
 - Mainboard
-- BIOS (**B**asic **I**nput/**O**utput System)
+  - BIOS (**B**asic **I**nput/**O**utput **S**ystem)
 - CPU (**C**entral **P**rocessing **U**nit)
 - RAM (**R**andom **A**ccess **M**emory)
 - Speicher
@@ -56,6 +56,10 @@ WICHTIG: Mainboard mitnehmen, damit sie sich was unter einer PLATINE (Kabeln auf
 ---
 
 ### BIOS
+
+<!-- 
+_header: / Hardware / Komponenten / Mainbord
+-->
 
 - Steht für **B**asic **I**nput/**O**utput **S**ystem.
 - Das BIOS ist ein Chip auf dem Mainboard.
