@@ -16,3 +16,5 @@ Auch erwähnen, dass de facto alle Browser auf Chromium basieren. Dabei evtl. au
 
 das irgendwie vielleicht erwähnen:
 document.body.contentEditable = true
+
+https://www.schubu.org/p592/browser
