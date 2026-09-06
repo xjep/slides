@@ -242,6 +242,10 @@ https://www.youtube.com/watch?v=gShRBsahzXg
 - display port
     - mini
 
+<!-- 
+https://www.elektronik-kompendium.de/sites/com/1904091.htm
+ -->
+
 ---
     
 ### audio
