@@ -24,7 +24,7 @@ section img {
 1) Essen und Trinken dürfen nicht in den EDV-Saal mitgenommen werden.
 2) Die Lehrperson legt die Sitzordnung fest und die Sitzordnung ist einzuhalten.
 3) Wir nehmen **kein IPad** in den Unterricht mit, außer die Lehrperson hat es angekündigt.
-4) Der Schnellhefter ist immer mitzunehmen. Dies gilt für die 1. und 2. Klasse sowie für die Ganztagesklassen.
+4) Der Schnellhefter ist immer mitzunehmen. Dies gilt für die 1. und 2. Klassen sowie für die Ganztagesklassen.
 5) Wir melden uns erst am PC an, wenn die Lehrperson dies erlaubt.
 
 ---
