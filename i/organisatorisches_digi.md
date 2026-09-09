@@ -57,7 +57,7 @@ section img {
 - Mitarbeit
     - **Zielgerichtetes und aufgabenbezogenes** Arbeiten während der Unterrichtszeit
     - Selbstständige **Erledigung** von diversen Übungen
-      - **Abgabe** dieser Übungen in einer [**Lernplattform**](eduvidual.at) 
+    - **Abgabe** dieser Übungen in einer [**Lernplattform**](eduvidual.at) 
 - 1 Test pro Semester (Dauer: 15 Minuten)
 
 <!-- _footer: Das ausführliche Leistungsberteiungskonzept für Digitale Grundbildung kann [hier](https://oeversee.at/schule/leistungsbeurteilungskonzept) nachgelesen werden -->
@@ -117,7 +117,3 @@ section img {
 - Mediengestaltung und Manipulation
 - Soziale Medien
 - Künstliche Intelligenz
-
----
-
-## Lernplattform
