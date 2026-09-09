@@ -111,12 +111,8 @@ Füge ein fixiertes Menü für die einzelnen Überschriften ein.
 
 ---
 
-### Wellen zwischen den Abschnitten (Bonus)
-
-[Siehe dazu](using_haikei_waves.html)
-
 ### Responsive Design (Bonus)
 
 - Die Bilder sollen sich an der Fensterbreite anpassen.
-- Stelle außerdem sicher, dass sich die Bilder abhängig von der Fenstergröße entweder neben oder unter dem Text befinden. (Hier brauchst du z.B. eine [Flex Box](css_grundlagen.html#11))
-- Passe außerdem die [Abstände](css_grundlagen.html#11) zwischen den Elementen an, damit Text und Bild nicht mehr ganz am Rand erscheinen und zwischen Bild und Text ein Abstand existiert.
+- Stelle außerdem sicher, dass sich die Bilder abhängig von der Fenstergröße entweder neben oder unter dem Text befinden. (Hier brauchst du z.B. eine Flex Box)
+- Passe außerdem die Abstände zwischen den Elementen an, damit Text und Bild nicht mehr ganz am Rand erscheinen und zwischen Bild und Text ein Abstand existiert.
