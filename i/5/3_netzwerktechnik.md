@@ -1,1 +1,0 @@
-Grundlagen der Vernetzung von Computern beschreiben und lokale und globale Computernetzwerke nutzen können
