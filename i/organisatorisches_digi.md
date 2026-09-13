@@ -48,8 +48,6 @@ section img {
 
 ![width:650px](images/pexels-polina-zimmerman-3747486.jpg)
 
-<!-- _footer: Bildquelle und Lizenz: https://www.pexels.com/photo/photo-of-computers-near-window-3747486/ -->
-
 ---
 
 ## Beurteilung
@@ -110,10 +108,16 @@ section img {
 
 - Hardware
 - Betriebssysteme
-- Internet und World Wide Web
-- Datenschutz
+- Netzwerktechnik
+- Datenschutz (DSGVO, DSG)
 - Datensicherheit
 - Programmieren
 - Mediengestaltung und Manipulation
-- Soziale Medien
+- Digitale Medienwelt (Filterblasen, Soziale Medien, ...)
 - Künstliche Intelligenz
+
+---
+
+## Bildquelle
+
+https://www.pexels.com/photo/photo-of-computers-near-window-3747486/

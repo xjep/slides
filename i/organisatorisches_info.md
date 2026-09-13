@@ -43,14 +43,6 @@ section img {
 
 ---
 
-## Sitzordnung
-
-![width:650px](images/pexels-polina-zimmerman-3747486.jpg)
-
-<!-- _footer: Bildquelle und Lizenz: https://www.pexels.com/photo/photo-of-computers-near-window-3747486/ -->
-
----
-
 ## Beurteilung
 
 - Mitarbeit
