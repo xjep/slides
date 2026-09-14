@@ -57,19 +57,19 @@ section img {
 
 ## Themen [Teil 1]
 
+- Textverarbeitung (Mitschrift)
 - Hardware
 - Betriebssysteme
 - Netzwerktechnik
 - Tabellenkalkulation
 - Automaten, Datenstrukturen & Algorithmen
-- Programmieren
 
 ---
 
 ## Themen [Teil 2]
 
+- Programmieren
 - Datenbanken
-- Textverarbeitung
 - Datenschutz & Urheberrecht
 - Präsentationstechnologie
 - Geschichte
