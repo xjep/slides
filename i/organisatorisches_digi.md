@@ -65,8 +65,8 @@ section img {
 ## Themen 1. Klasse
 
 - Hardware
-    - Peripheriegerät (Maus & **Tastatur**)
-    - Zentraleinheit (Bauteile im Computer)
+    - Begriffe (z.B. Ein Bildschirm ist kein Computer)
+    - Peripheriegeräte (Maus & **Tastatur**)
 - Orientierung im Betriebssystem (Programme, Ordner, Speichern)
 - Schnelles Arbeiten am Computer
 - Textverarbeitung (Microsoft Word)
